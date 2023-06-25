@@ -14,5 +14,7 @@
 - [GitHub Pages](https://pages.github.com/)
 - [README.md](https://devmentor.pl/b/jak-stworzyc-readme-profilowe-na-githubie)
 - [gitignore](https://github.com/github/gitignore)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Commitizen](https://github.com/commitizen/cz-cli)
 - [achievements](https://github.com/drknzz/GitHub-Achievements)
 - [emoji](https://github.com/ikatyang/emoji-cheat-sheet)
