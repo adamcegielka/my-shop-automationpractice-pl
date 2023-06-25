@@ -13,9 +13,7 @@
 
 # :shopping_cart: My Shop - automationpractice.pl
 
-## :heavy_check_mark: The objective of the test project
-
-The objective of this testing project is to create test cases in [TestRail](), report bugs in [JIRA]() and create automated tests in [Playwright]() for the [automationpractice.pl](http://www.automationpractice.pl/) application in order to gain valuable experience. 
+The objective of this testing project is to create test cases in [TestRail](https://www.testrail.com/), report bugs in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application in order to gain valuable experience. 
 
 ## :memo: Scope of the test project
 
