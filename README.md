@@ -14,16 +14,18 @@
 
 # :shopping_cart: My Shop - automationpractice.pl
 
-The objective of this testing project is to create test cases in [TestRail](https://www.testrail.com/), report bugs in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application in order to gain valuable experience. 
+- The project will be executed until the end of July 2023, the start date of the tests is 03.06.2023.
+- The objective of this project is to create test cases in [TestRail](https://www.testrail.com/), report bugs in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application in order to gain valuable experience.  
 
-## :memo: Scope of the test project
+
+## Scope of the test project
 
 - design of test cases in TestRail and creation of a report
 - execution of manual tests on the basis of the test cases 
 - bug reporting in JIRA
 - writing and running automated tests in Paywright
 
-## :desktop_computer: Work environment:
+## Work environment:
 - Windows 10 Home
 - Browser:
     - Chromium 114.0.5735.134
@@ -33,9 +35,9 @@ The objective of this testing project is to create test cases in [TestRail](http
     - Firefox 114.0.2
     - WebKit 16.4
 
-## :hammer_and_wrench: Tools used for testing
+## Tools used for testing
 
-- [App](http://www.automationpractice.pl/)
+- [App: My Shop](http://www.automationpractice.pl/)
 - [TestRail](https://www.testrail.com/)
 - [JIRA](https://www.atlassian.com/pl/software/jira/)
 - [VSCode](https://code.visualstudio.com/)
@@ -53,8 +55,13 @@ The objective of this testing project is to create test cases in [TestRail](http
 
 <br>
 
-## :construction: Lessons learned
-To be written after the tests have been completed
+## Types of tests to be carried out
+- E2E tests
+- Functional tests
+- Compatibility tests
+- Responsiveness tests
+- Navigation and usability tests
+- Error control tests
 
 ## :construction: Test results
 To be written after the tests have been completed
