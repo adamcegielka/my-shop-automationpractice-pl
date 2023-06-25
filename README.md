@@ -53,7 +53,7 @@
 - [Stack Overflow](https://stackoverflow.com/)
 - [PicPick](https://picpick.app/)
 
-## Types of tests to be carried out
+## Test types made
 - E2E tests
 - Functional tests
 - Compatibility tests
