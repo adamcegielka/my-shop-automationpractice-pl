@@ -1,14 +1,15 @@
 [![Playwright.dev](https://img.shields.io/badge/Documentation-Playwright-1c8620.svg?logo=playwright)](https://playwright.dev/docs/intro)
-[![Support badge](https://img.shields.io/badge/GitHub-Playwright-1c8620.svg?logo=github)](https://github.com/microsoft/playwright/tree/main) 
-<br>
+[![Playwright - GitHub](https://img.shields.io/badge/GitHub-Playwright-1c8620.svg?logo=github)](https://github.com/microsoft/playwright/tree/main) 
+[![Playwright - Stack Overflow](https://img.shields.io/badge/stackoverflow-Playwright-e87922.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/playwright)<br>
 [![Cucumber](https://img.shields.io/badge/Documentation-Cucumber-23d96c.svg?logo=Cucumber)](https://cucumber.io/)
-[![Cucumber](https://img.shields.io/badge/GitHub-Cucumber-23d96c.svg?logo=github)](https://github.com/cucumber)
-<br>
+[![Cucumber - GitHub](https://img.shields.io/badge/GitHub-Cucumber-23d96c.svg?logo=github)](https://github.com/cucumber)
+[![Cucumber - Stack Overflow](https://img.shields.io/badge/stackoverflow-Cucumber-e87922.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/cucumber)<br>
 [![Prettier](https://img.shields.io/badge/Documentation-Prettier-f7ba3e.svg?logo=prettier)](https://prettier.io/docs/en/index.html)
-[![Prettier](https://img.shields.io/badge/GitHub-Prettier-f7ba3e.svg?logo=github)](https://github.com/prettier/prettier)
-<br>
+[![Prettier - GitHub](https://img.shields.io/badge/GitHub-Prettier-f7ba3e.svg?logo=github)](https://github.com/prettier/prettier)
+[![Prettier - Stack Overflow](https://img.shields.io/badge/stackoverflow-Prettier-e87922.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/prettier)<br>
 [![ESLint](https://img.shields.io/badge/Documentation-ESLint-4b32c3.svg?logo=eslint)](https://eslint.org/docs/latest/)
-[![ESLint](https://img.shields.io/badge/GitHub-ESLint-4b32c3.svg?logo=github)](https://github.com/eslint/eslint)
+[![ESLint - GitHub](https://img.shields.io/badge/GitHub-ESLint-4b32c3.svg?logo=github)](https://github.com/eslint/eslint)
+[![ESLint - Stack Overflow](https://img.shields.io/badge/stackoverflow-ESLint-e87922.svg?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/eslint)
 <br><br>
 
 # :shopping_cart: My Shop - automationpractice.pl
