@@ -1,6 +1,10 @@
 ## Creating a repository on GitHub
 
-
+- create new project
+- push an existing repository from the command line:
+    - `git remote add origin https://github.com/account-name/project-name.git`
+    - `git branch -M main`
+    - `git push -u origin main`
 
 <br>
 
