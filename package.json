@@ -1,0 +1,17 @@
+{
+  "name": "my-shop-automationpractice-pl",
+  "version": "1.0.0",
+  "description": "The test project involves running automated tests using previously written test cases",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "Adam Cegielka",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.35.1"
+  }
+}
