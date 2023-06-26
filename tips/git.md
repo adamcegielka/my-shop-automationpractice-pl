@@ -15,15 +15,15 @@
 
 ## Git Commands
 
-| Command | Description |
-| :-------- | :---------------------- |
-| git init | Create a new local repository |
-| git config --global user.name "John Smith" <br> git config --global user.email `john@example.com` | Tell Git who you are  |
-| git add `filename` <br>  git add . | Add files |
-| git branch -m master main | Change branch name |
-| git commit -m `"Commit message"` | Commit |
-| git push origin main | Push |
-| git status | Status |
+| Command                                                                                           | Description                   |
+| :------------------------------------------------------------------------------------------------ | :---------------------------- |
+| git init                                                                                          | Create a new local repository |
+| git config --global user.name "John Smith" <br> git config --global user.email `john@example.com` | Tell Git who you are          |
+| git add `filename` <br> git add .                                                                 | Add files                     |
+| git branch -m master main                                                                         | Change branch name            |
+| git commit -m `"Commit message"`                                                                  | Commit                        |
+| git push origin main                                                                              | Push                          |
+| git status                                                                                        | Status                        |
 
 <br>
 

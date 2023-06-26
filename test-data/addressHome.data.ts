@@ -1,5 +1,5 @@
 export const addressHomeData = {
-  addressTitle: 'Home address', 
+  addressTitle: 'Home address',
   addressLine1: '29 Cove Lane',
   addressLine2: 'Arizona 95924',
   city: 'Phoenix',

@@ -1,5 +1,5 @@
 export const addressWorkData = {
-  addressTitle: 'Work address', 
+  addressTitle: 'Work address',
   addressLine1: '106 Stillwell Avenue APT 34',
   addressLine2: 'San Francisco 79255',
   city: 'San Francisco',

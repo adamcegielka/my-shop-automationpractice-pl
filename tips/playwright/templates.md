@@ -1,15 +1,21 @@
 ## Methods
-:small_orange_diamond:  Import  
+
+:small_orange_diamond: Import
+
 ```TypeScript
 import { test, expect, chromium } from '@playwright/test';
 ```
-:small_orange_diamond: Test  
+
+:small_orange_diamond: Test
+
 ```TypeScript
 test('Title', async ({ page }) => {
   // ...
 });
 ```
-:small_orange_diamond: Describe  
+
+:small_orange_diamond: Describe
+
 ```TypeScript
 test.describe('Title two tests', () => {
 
@@ -22,7 +28,9 @@ test.describe('Title two tests', () => {
   });
 });
 ```
-:small_orange_diamond: test.beforeEach  
+
+:small_orange_diamond: test.beforeEach
+
 ```TypeScript
 test.describe('Title two tests', () => {
 
