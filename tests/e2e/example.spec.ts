@@ -1,18 +1,19 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from "@playwright/test";
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test("open the page, check the title and url", async ({ page }) => {
+  await page.goto("/");
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  await expect(page).toHaveTitle(/My Shop/);
+  await expect(page).toHaveURL("http://www.automationpractice.pl/index.php");
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test("click women link and assert", async ({ page }) => {
+  await page.goto("/");
+  await page.locator('#block_top_menu').getByRole('link', { name: 'Women' }).click();
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects the URL to contain intro.
-  await expect(page).toHaveURL(/.*intro/);
+  await expect(page).toHaveTitle(/Women - My Shop/);
+  await expect(page.locator(".cat-name")).toHaveText("Women");
+  await expect(page.locator(".shopping_cart")).toBeVisible();
+  const searchInput = await page.locator('#search_query_top');
+  await expect(searchInput).toBeEmpty();
 });
