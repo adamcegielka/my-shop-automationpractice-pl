@@ -7,7 +7,19 @@
     "doc": "docs",
     "test": "tests"
   },
-  "scripts": {},
+  "scripts": {
+    "open:codegen": "npx playwright codegen http://www.automationpractice.pl/",
+    "open:ui": "npx playwright test --ui",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:chromium": "cross-env BROWSER=chromium playwright test",
+    "test:chromium:headed": "cross-env BROWSER=chromium playwright test --headed",
+    "test:firefox": "cross-env BROWSER=firefox playwright test",
+    "test:firefox:headed": "cross-env BROWSER=firefox playwright test --headed",
+    "test:webkit": "cross-env BROWSER=webkit playwright test",
+    "test:webkit:headed": "cross-env BROWSER=webkit playwright test --headed",
+    "report": "npx playwright show-report"
+  },
   "keywords": [],
   "author": "Adam Cegielka",
   "license": "ISC",
