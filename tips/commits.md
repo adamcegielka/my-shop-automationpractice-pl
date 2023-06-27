@@ -14,6 +14,7 @@
 - `ci: config continuous integration for the new file`
 - `feat: add new file`
 - `refactor: improve code structure in the new file`
+- `chore: config ESLint for the project`
 
 <br>
 
