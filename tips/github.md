@@ -11,6 +11,9 @@
 ## Useful links
 
 - [GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [GitHub Profile README Generator](https://rahuldkjain.github.io/gh-profile-readme-generator/)
+- [Shields.io](https://shields.io/)
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
 - [GitHub Pages](https://pages.github.com/)
 - [README.md](https://devmentor.pl/b/jak-stworzyc-readme-profilowe-na-githubie)
 - [gitignore](https://github.com/github/gitignore)
@@ -18,3 +21,4 @@
 - [Commitizen](https://github.com/commitizen/cz-cli)
 - [achievements](https://github.com/drknzz/GitHub-Achievements)
 - [emoji](https://github.com/ikatyang/emoji-cheat-sheet)
+- [Emojipedia](https://emojipedia.org/)
