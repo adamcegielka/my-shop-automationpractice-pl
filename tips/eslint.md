@@ -5,7 +5,7 @@
 ## Installation ESLint
 
 :small_orange_diamond: install `npm install eslint --save-dev`  
-:small_orange_diamond: configuration `npm init @eslint/config`
+:small_orange_diamond: configuration `npm init @eslint/config`  
 :small_orange_diamond: add prettier in `.eslintrc.json`:
 ```javascript
 "extends": [
