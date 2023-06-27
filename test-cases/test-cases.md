@@ -2,6 +2,15 @@
 
 1. Registration:
 
+- [x] Validation registration form
+- [ ] Verification of the correctness of the registration form.
+- [ ] Verification that a new user can be registered.
+- [ ] Verification that a user with incorrect data cannot be registered.
+
+
+<!-- 
+1. Registration:
+
 - Validation registration form
     - Check the email input field
     - Validation the input field
@@ -46,4 +55,5 @@
 
 8. Responsiveness:
 
-- Verification that the website displays correctly on different devices (computers, tablets, phones).
+- Verification that the website displays correctly on different devices (computers, tablets, phones). 
+-->
