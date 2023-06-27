@@ -18,7 +18,9 @@
     "test:firefox:headed": "npx playwright test --headed --project=firefox",
     "test:webkit": "npx playwright test --project=webkit",
     "test:webkit:headed": "npx playwright test --headed --project=cwebkit",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "prettier": "npx prettier --write .",
+    "lint": "eslint . --fix --max-warnings=0"
   },
   "keywords": [],
   "author": "Adam Cegielka",
