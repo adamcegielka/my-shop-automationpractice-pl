@@ -4,9 +4,9 @@
 
 ## Installation Playwright
 
-:small_orange_diamond: install Playwright `npm init playwright@latest`
-or:
-:small_orange_diamond: project initiation `npm init`
+:small_orange_diamond: install Playwright `npm init playwright@latest`  
+or:  
+:small_orange_diamond: project initiation `npm init`  
 :small_orange_diamond: install the test module itself `npm install @playwright/test`
 
 
