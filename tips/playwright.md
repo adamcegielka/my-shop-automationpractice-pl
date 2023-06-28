@@ -22,6 +22,7 @@ or:
 
 ### Playwright:
 
+- [Playwright - playwright.info](https://playwright.info/)
 - [Playwright - jaktestowac.pl - YouTube](https://www.youtube.com/watch?v=JqEp2cjnzAo&list=PLfKhn9AcZ-cD2TCB__K7NP5XARaCzZYn7)
 - [Playwright - Zwinna Panda - YouTube](https://www.youtube.com/watch?v=1-u5JWFWPgw&list=PLvFBbkSgL1u7Bco8ewGnWeZpjRH-bHC_7)
 - [Playwright framework - Typescript - YouTube](https://www.youtube.com/watch?v=orWd3b6zqHI&list=PL699Xf-_ilW4FuazWjbnRm0PPCltz25pz)
