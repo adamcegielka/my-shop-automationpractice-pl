@@ -115,7 +115,16 @@
 - [ ] Verification of Facebook tracking button
 - [ ] Verification of tracking button on Twitter
 - [ ] Verification of e-mail address
-- [ ]
+- [ ] Verification of footer transition to 'Women' page
+- [ ] Checking the footer transition to the "Our stores" page
+- [ ] Checking the footer transition to the "Terms and conditions of use" page
+- [ ] Checking footer transition to 'About us' page
+- [ ] Checking the footer transition to 'My account' page
+- [ ] Checking the footer transition to 'My orders' page
+- [ ] Checking the footer transition to 'My credit slips' page
+- [ ] Verifying the footer transition to 'My addresses' page
+- [ ] Verifying the footer transition to 'My personal info' page
+- [ ] Verification of 'Sign out' button via footer
 
 10. Product search:
 
