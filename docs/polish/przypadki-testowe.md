@@ -116,7 +116,16 @@
 - [ ] Weryfikacja przycisku śledzenia na Facebook
 - [ ] Weryfikacja przycisku śledzenia na Twitter
 - [ ] Weryfikacja adresu e-mail
-- [ ] 
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'Women'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'Our stores'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'Terms and conditions of use'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'About us'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'My account'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'My orders'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'My credit slips'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'My addresses'
+- [ ] Weryfikacja przejścia przez stopkę na stronę 'My personal info'
+- [ ] Weryfikacja przycisku 'Sign out' przez stopkę
 
 11. Wyszukiwanie produktów:
 
