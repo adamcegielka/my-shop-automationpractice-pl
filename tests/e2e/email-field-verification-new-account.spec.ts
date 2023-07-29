@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { Registration } from '../../pages/registration.page';
 import { registrationData } from '../../test-data/registration.data';
 
-test.describe.only('user registration', () => {
+test.describe.only('verification email field for account creation', () => {
   let registration: Registration;
 
   test.beforeEach(async ({ page }) => {
@@ -38,6 +38,17 @@ test.describe.only('user registration', () => {
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWithDot);
+    await registration.bottonCreateAccount.click();
+    const EmailFieldValidation = registration.validationEmail;
+    await expect(EmailFieldValidation).toContainText(validationEmailField);
+  });
+
+  test('email validation with initial dash character', async ({ page }) => {
+    registration = new Registration(page);
+    const emailWithDash = registrationData.userEmailWithDash;
+    const validationEmailField = 'Invalid email address.';
+
+    await registration.inputEmail.fill(emailWithDash);
     await registration.bottonCreateAccount.click();
     const EmailFieldValidation = registration.validationEmail;
     await expect(EmailFieldValidation).toContainText(validationEmailField);
