@@ -9,4 +9,5 @@ export const registrationData = {
   userEmailWithSpace: ' herko.uhlemann@gmx.com',
   userEmailWithDot: '.herko.uhlemann@gmx.com',
   userEmailWithDash: '-herko.uhlemann@gmx.com',
+  userEmailWithUnderscore: '_herko.uhlemann@gmx.com',
 };
