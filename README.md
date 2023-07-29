@@ -22,7 +22,7 @@
 
 # :shopping_cart: My Shop - automationpractice.pl
 
-- The project will be executed until the end of July 2023, the start date of the tests is 03.06.2023.
+- The project will be executed until the end of August 2023, the start date of the tests is 03.06.2023.
 - The objective of this project is to create test cases in [TestRail](https://www.testrail.com/), report bugs in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application in order to gain valuable experience.  
 
 
