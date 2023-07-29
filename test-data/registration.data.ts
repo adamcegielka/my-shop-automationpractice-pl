@@ -6,4 +6,7 @@ export const registrationData = {
   birthDay: '6',
   birthMonth: 'April',
   birthYear: '1996',
+  userEmailWithSpace: ' herko.uhlemann@gmx.com',
+  userEmailWithDot: '.herko.uhlemann@gmx.com',
+  userEmailWithDash: '-herko.uhlemann@gmx.com',
 };
