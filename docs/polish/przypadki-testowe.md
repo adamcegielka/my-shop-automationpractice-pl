@@ -3,7 +3,10 @@
 1. Rejestracja:
 
 - [ ] Walidacja pola wprowadzania adresu e-mail
-- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (_)(.)(-)(spacja)
+- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (spacja)
+- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (.)
+- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (-)
+- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (_)
 - [ ] Weryfikacja poprawności adresu e-mail ze znakami specjalnymi (=)(')(&)
 - [ ] Walidacja formularza rejestracji
 - [ ] Weryfikacja rejestracji nowego użytkownika podając tylko imię

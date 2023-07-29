@@ -3,7 +3,10 @@
 1. Registration:
 
 - [x] Validation of e-mail address input field
-- [ ] Validation of e-mail address with initial special characters (_)(.)(-)(space)
+- [ ] Validation of e-mail address with initial special characters (space)
+- [ ] Validation of e-mail address with initial special characters (.)
+- [ ] Validation of e-mail address with initial special characters (-)
+- [ ] Validation of e-mail address with initial special characters (_)
 - [ ] Validation of e-mail address with special characters (=)(')(&)
 - [ ] Validation of registration form
 - [ ] Verification of new user registration with first name only
