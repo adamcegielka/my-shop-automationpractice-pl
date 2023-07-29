@@ -53,4 +53,15 @@ test.describe.only('verification email field for account creation', () => {
     const EmailFieldValidation = registration.validationEmail;
     await expect(EmailFieldValidation).toContainText(validationEmailField);
   });
+
+  test('email validation with initial underscore character', async ({ page }) => {
+    registration = new Registration(page);
+    const emailWithUnderscore = registrationData.userEmailWithUnderscore;
+    const validationEmailField = 'Invalid email address.';
+
+    await registration.inputEmail.fill(emailWithUnderscore);
+    await registration.bottonCreateAccount.click();
+    const EmailFieldValidation = registration.validationEmail;
+    await expect(EmailFieldValidation).toContainText(validationEmailField);
+  });
 });
