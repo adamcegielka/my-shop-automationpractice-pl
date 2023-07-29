@@ -26,7 +26,18 @@ test.describe.only('user registration', () => {
     const emailWithSpace = registrationData.userEmailWithSpace;
     const validationEmailField = 'Invalid email address.';
 
-    await page.locator('#email_create').fill(emailWithSpace);
+    await registration.inputEmail.fill(emailWithSpace);
+    await registration.bottonCreateAccount.click();
+    const EmailFieldValidation = registration.validationEmail;
+    await expect(EmailFieldValidation).toContainText(validationEmailField);
+  });
+
+  test('email validation with initial dot character', async ({ page }) => {
+    registration = new Registration(page);
+    const emailWithDot = registrationData.userEmailWithDot;
+    const validationEmailField = 'Invalid email address.';
+
+    await registration.inputEmail.fill(emailWithDot);
     await registration.bottonCreateAccount.click();
     const EmailFieldValidation = registration.validationEmail;
     await expect(EmailFieldValidation).toContainText(validationEmailField);
