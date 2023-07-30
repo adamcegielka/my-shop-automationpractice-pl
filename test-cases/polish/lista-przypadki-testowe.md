@@ -7,10 +7,10 @@
 - [x] 002-TC-pl Weryfikacja poprawności adresu e-mail z kropką na początku
 - [x] 003-TC-pl Weryfikacja poprawności adresu e-mail z myślnikiem na początku
 - [x] 004-TC-pl Weryfikacja poprawności adresu e-mail z podkreślnikiem na początku
-- [ ] 005-TC-pl Weryfikacja poprawności adresu e-mail ze znakiem specjalnym: =
-- [ ] 006-TC-pl Weryfikacja poprawności adresu e-mail ze znakiem specjalnym: '
-- [ ] 007-TC-pl Weryfikacja poprawności adresu e-mail ze znakiem specjalnym: &
-- [ ] 008-TC-pl Weryfikacja poprawnego adresu e-mail
+- [ ] 005-TC-pl Weryfikacja adresu email ze znakiem specjalnym apostrophe
+- [ ] 006-TC-pl Weryfikacja adresu email ze znakiem specjalnym equation
+- [ ] 007-TC-pl Weryfikacja adresu email ze znakiem specjalnym ampersand
+- [ ] 008-TC-pl Weryfikacja poprawnego adresu email
 
 2. Rormularz rejestracji:
 
