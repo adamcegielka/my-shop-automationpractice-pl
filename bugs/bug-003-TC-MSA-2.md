@@ -10,5 +10,5 @@
 | 4   | **Preconditions:**         | _The **automationpractice.pl** application is available and working properly_                      |
 | 5   | **Steps for reproduction** | _1. Go to http://www.automationpractice.pl <br> 2. Click `Sign in` button <br> 3. Enter the email with a hyphen at the beginning: `-herko.uhlemann@gmx.com` <br> 4. Click `Create an account` button_ |
 | 7   | **Actual result:**         | _User can create an account_                                                                       |
-| 6   | **Expected result:**       | _Email with a hyphen at the beginning will not create a new accountd_                              |
+| 6   | **Expected result:**       | _After following the above steps, the message [![Valid](https://img.shields.io/badge/Invalid%20email%20address.-f3515c)](#) appears_ |
 | 8   | **Attachment:**            | _No_                                                                                               |
