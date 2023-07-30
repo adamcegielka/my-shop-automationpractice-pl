@@ -7,7 +7,13 @@
 - [x] 002-TC Verification e-mail address with dot at beginning
 - [x] 003-TC Verification e-mail address with hyphen at beginning
 - [x] 004-TC Verification e-mail address with underscore at beginning
-- [ ] Verification of e-mail address with special characters (=)(')(&)
+- [ ] 005-TC Verification e-mail address with the special character: =
+- [ ] 006-TC Verification e-mail address with the special character: '
+- [ ] 007-TC Verification e-mail address with the special character: &
+- [ ] 008-TC Verification correct e-mail address
+
+2. Registration form:
+
 - [ ] Validation of registration form
 - [ ] Verification of new user registration with first name only
 - [ ] Verification of new user registration by specifying only the surname
@@ -24,7 +30,7 @@
 - [ ] Verification of new user registration with existing e-mail
 - [ ] Verification of return from user registration to home page
 
-2. Adding an address:
+3. Adding an address:
 
 - [ ] Validation of the address addition form
 - [ ] Verification of address addition without entering required 'Address' field
@@ -52,7 +58,7 @@
 - [ ] Verification of addition of next address
 - [ ] Verification of return from 'My addresses' to home page
 
-3. Change password:
+4. Change password:
 
 - [ ] Verification of password change to 4 characters
 - [ ] Verification of password change to 5 characters space
@@ -61,7 +67,7 @@
 - [ ] Verification of password change with newsletter ticker
 - [ ] Verification of return from "Your personal information" to home page
 
-4. Login:
+5. Login:
 
 - [ ] Validation of the login form
 - [ ] Verification of login with invalid e-mail
@@ -70,7 +76,7 @@
 - [ ] Verification of user logout
 - [ ] Verification of user log-off and log-on again
 
-5. Contact form:
+6. Contact form:
 
 - [ ] Validation of the contact form
 - [ ] Validation of sending message only with completed 'Message' field
@@ -85,7 +91,7 @@
 - [ ] Verification of sending message with choice of 'Webmaster' in 'Subject Heading' field
 - [ ] Verification of return from 'Contact us' to home page
 
-6. top menu navigation:
+7. top menu navigation:
 
 - [ ] Verification of correct display of 'Women' pages.
 - [ ] Verification of the return from 'Women' to the home page
@@ -98,7 +104,7 @@
 - [ ] Verification of return from 'T-shirts' to home page
 - [ ] Verification of correct display of 'Blog' pages
 
-7. Carousel:
+8. Carousel:
 
 - [ ] Verification of the button in the forward carousel
 - [ ] Verification of the button in the carousel backwards
@@ -106,12 +112,12 @@
 - [ ] Verification of 'BEST SELLERS' button
 - [ ] Verification of the 'BEST SELLERS' button and back to 'POPULAR'.
 
-8. Navigation in the left column:
+9. Navigation in the left column:
 
 - [ ] Verification of the left column of 'Tops' products with 'WOMEN'.
 - [ ] 
 
-9. footer:
+10. footer:
 
 - [ ] Newsletter validation
 - [ ] Verification of Newsletter subscription
@@ -129,7 +135,7 @@
 - [ ] Verifying the footer transition to 'My personal info' page
 - [ ] Verification of 'Sign out' button via footer
 
-10. Product search:
+11. Product search:
 
 - [ ] Search engine validation
 - [ ] Search engine validation by entering spaces
@@ -144,7 +150,7 @@
 - [ ] Verification of change in product display view and sorting products alphabetically
 - [ ] Verification of change of product display view and return to previous view
 
-11. Adding products to the cart:
+12. Adding products to the cart:
 
 - [ ] Verification of the 'Cart' button without products
 - [ ] Verification of 'Cart' button with products
@@ -165,61 +171,15 @@
 - [ ] Verification of increase in quantity of product in cart
 - [ ] Verification of reduction of quantity of product in cart
 
-12. Order processing:
+13. Order processing:
 
 - [ ] 
 
-13. Responsiveness:
+14. Responsiveness:
 
 - [ ]
 
-
 <!-- 
-1. Registration:
-
-- Validation registration form
-    - Check the email input field
-    - Validation the input field
-    - Validation check of an e-mail address with leading (_)(.)(-)(space) characters
-    - Validation of e-mail address with special characters (=)(')(&)
-    - Check the e-mail address input field with an existing user
-- Verification of the correctness of the registration form.
-- Verification that a new user can be registered.
-- Verification that a user with incorrect data cannot be registered.
-
-2. Login:
-
-- Verification of the correctness of the login form.
-- Verification that an existing account can be logged in.
-- Verification that you cannot log in with invalid data.
-
-3. Viewing products:
-
-- Verification that the page displays a list of products.
-- Verification that you can open the product page when you click on a product.
-- Verifying that product information is displayed, such as price, name, photo, etc.
-
-4. Adding products to the basket:
-
-- Verification that a product can be added to the shopping cart.
-- Verification of the correct display of the contents of the shopping cart after adding a product.
-- Verification that the product price is correctly summed in the basket.
-
-5. Order fulfilment:
-
-- To follow the order fulfilment process, checking the steps such as choosing the delivery address, payment method, etc.
-- Checking that the order summary is correct before placing the order.
-
-6. Static pages:
-
-- Verification of the correct display of static pages such as "About Us", "Contact Us", "Terms and Conditions", etc.
-
-7. Wyszukiwanie:
-
-- Verification that the product search works correctly.
-- Verification of the display of search results and their compatibility with the query.
-
-8. Responsiveness:
-
-- Verification that the website displays correctly on different devices (computers, tablets, phones). 
+http://www.automationpractice.pl/
+https://etsydemo.knowband.com/en/
 -->
