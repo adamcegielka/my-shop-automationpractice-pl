@@ -2,11 +2,11 @@
 
 1. Rejestracja:
 
-- [ ] Walidacja pola wprowadzania adresu e-mail
-- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (spacja)
-- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (.)
-- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (-)
-- [ ] Weryfikacja poprawności adresu e-mail z początkowymi znakami specjalnymi (_)
+- [x] 000-TC-pl Walidacja pola wprowadzania adresu e-mail
+- [x] 001-TC-pl Weryfikacja poprawności adresu e-mail ze specją na początku
+- [x] 002-TC-pl Weryfikacja poprawności adresu e-mail z kropką na początku
+- [x] 003-TC-pl Weryfikacja poprawności adresu e-mail z myślnikiem na początku
+- [x] 004-TC-pl Weryfikacja poprawności adresu e-mail z podkreślnikiem na początku
 - [ ] Weryfikacja poprawności adresu e-mail ze znakami specjalnymi (=)(')(&)
 - [ ] Walidacja formularza rejestracji
 - [ ] Weryfikacja rejestracji nowego użytkownika podając tylko imię
