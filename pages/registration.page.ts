@@ -7,4 +7,5 @@ export class Registration {
   bottonCreateAccount = this.page.locator('#SubmitCreate');
   validationEmail = this.page.locator('#create_account_error');
   inputEmail = this.page.locator('#email_create');
+  validationPageAuthentication = this.page.getByRole('heading', { name: 'Your personal information' });
 }
