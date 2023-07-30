@@ -2,12 +2,12 @@
 
 1. Registration:
 
-- [x] Validation of e-mail address input field
-- [ ] Validation of e-mail address with initial special characters (space)
-- [ ] Validation of e-mail address with initial special characters (.)
-- [ ] Validation of e-mail address with initial special characters (-)
-- [ ] Validation of e-mail address with initial special characters (_)
-- [ ] Validation of e-mail address with special characters (=)(')(&)
+- [x] 000-TC Validation of e-mail address input field
+- [x] 001-TC Verification of the correctness of an e-mail address with a dot at beginning
+- [x] 002-TC Verification of e-mail address with dot  at beginning
+- [x] 003-TC Verification of e-mail address with hyphen at beginning
+- [x] 004-TC Verification of e-mail address with underscore at beginning
+- [ ] Verification of e-mail address with special characters (=)(')(&)
 - [ ] Validation of registration form
 - [ ] Verification of new user registration with first name only
 - [ ] Verification of new user registration by specifying only the surname
