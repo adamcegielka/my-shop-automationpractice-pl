@@ -74,5 +74,16 @@ test.describe('verification email field for account creation', () => {
     await registration.bottonCreateAccount.click();
     const EmailFieldValidation = registration.validationEmail;
     await expect(EmailFieldValidation).toContainText(validationEmailField);
-  })
+  });
+
+  test.only('006-TC verificatione-mail address with special equation sign', async ({ page }) => {
+    registration = new Registration(page);
+    const emailWitEquation = registrationData.userEmailWithEquationSign;
+    const validationEmailField = 'Invalid email address.';
+
+    await registration.inputEmail.fill(emailWitEquation);
+    await registration.bottonCreateAccount.click();
+    const EmailFieldValidation = registration.validationEmail;
+    await expect(EmailFieldValidation).toContainText(validationEmailField);
+  });
 });
