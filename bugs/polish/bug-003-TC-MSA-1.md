@@ -6,7 +6,7 @@
 | :-- | :------------------------ | :-------------------------------------------------------------- |
 | 1   | **ID:**                   | _MSA-1_                                                         |
 | 2   | **Tytuł:**                | _Użytkownik może utworzyć konto z myślnikiem na początku email_ |
-| 3   | **Środowisko:**           | _- Windows 10 Home <br> - Google Chrome wersje 115.0.5790.110 (64-bitowa) <br> - Playwright 1.36.2_    |
+| 3   | **Środowisko:**           | _- Windows 10 Home <br> - Google Chrome wersje 115.0.5790.110 <br> - Playwright 1.36.2 : chromium, firefox, webkit_ |
 | 4   | **Warunki wstępne:**      | _Aplikacja **automationpractice.pl** jest dostępna i działa poprawnie_        |
 | 5   | **Kroki do wykonania**    | _1. Iść na stronę http://www.automationpractice.pl <br> 2. Kliknąć przycisk `Sign in` <br> 3. Wpisać email z myślnikiem: `-herko.uhlemann@gmx.com` <br> 4. Kliknąć przycisk `Create an account`_ |
 | 7   | **Rzeczywisty rezultat:** | _Użytkownik może utworzyć konto_                                |
