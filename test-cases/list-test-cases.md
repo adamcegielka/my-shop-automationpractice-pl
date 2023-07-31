@@ -7,10 +7,10 @@
 - [x] 002-TC Verification e-mail address with dot at beginning
 - [x] 003-TC Verification e-mail address with hyphen at beginning
 - [x] 004-TC Verification e-mail address with underscore at beginning
-- [ ] 005-TC Verification e-mail address with special apostrophe sign
-- [ ] 006-TC Verification e-mail address with special equation sign
-- [ ] 007-TC Verification e-mail address with special ampersand sign
-- [ ] 008-TC Verification correct e-mail address
+- [x] 005-TC Verification e-mail address with special apostrophe sign
+- [x] 006-TC Verification e-mail address with special equation sign
+- [x] 007-TC Verification e-mail address with special ampersand sign
+- [x] 008-TC Verification correct e-mail address
 
 2. Registration form:
 
