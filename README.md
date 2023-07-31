@@ -36,9 +36,11 @@
 ## Work environment:
 - Windows 10 Home
 - Browser:
-    - Chromium 114.0.5735.134
-    - Firefox 114.0.2
-    - WebKit 16.4
+  - Chromium 115.0.5790.110
+  - Firefox Developer Edition 116.0b8
+  - Opera 101.0.4843.25
+- Playwright 1.36.2
+  - Browsers: chromium, firefox, webkit
 
 ## Tools used for testing
 
