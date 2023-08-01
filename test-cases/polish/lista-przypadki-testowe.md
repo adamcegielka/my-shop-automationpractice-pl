@@ -25,10 +25,9 @@
 - [x] 017-TC-pl Weryfikacja rejestracji nowego użytkownika z jedną spacją w polu imię
 - [x] 018-TC-pl Weryfikacja rejestracji nowego użytkownika z jedną spacją w polu nazwisko
 - [x] 019-TC-pl Weryfikacja rejestracji nowego użytkownika z pięciokrotną spacją w polu hasło
-- [x] 020-TC-pl Weryfikacja rejestracji nowego użytkownika używając spacji we wszystkich polach
-- [x] 021-TC-pl Weryfikacja rejestracji nowego użytkownika z pełnymi danymi
-- [x] 022-TC-pl Weryfikacja rejestracji nowego użytkownika z istniejącym e-mail
-- [x] 023-TC-pl Weryfikacja powrotu z rejestracji użytkownika do strony głównej
+- [x] 020-TC-pl Weryfikacja rejestracji nowego użytkownika z pełnymi danymi
+- [x] 021-TC-pl Weryfikacja rejestracji nowego użytkownika z istniejącym e-mail
+- [x] 022-TC-pl Weryfikacja powrotu z rejestracji użytkownika do strony głównej
 
 3. Dodanie adresu:
 
