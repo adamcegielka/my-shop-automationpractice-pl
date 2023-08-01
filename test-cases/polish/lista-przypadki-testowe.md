@@ -12,7 +12,7 @@
 - [x] 007-TC-pl Weryfikacja adresu email ze znakiem specjalnym ampersand
 - [x] 008-TC-pl Weryfikacja poprawnego adresu email
 
-2. Rormularz rejestracji:
+2. Formularz rejestracji:
 
 - [ ] Walidacja formularza rejestracji
 - [ ] Weryfikacja rejestracji nowego użytkownika podając tylko imię
