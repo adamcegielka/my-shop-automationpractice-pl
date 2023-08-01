@@ -14,21 +14,19 @@
 
 2. Registration form:
 
-- [ ] Validation of registration form
-- [ ] Verification of new user registration with first name only
-- [ ] Verification of new user registration by specifying only the surname
-- [ ] Verification of new user registration by entering only the password
-- [ ] Verification of new user registration without first name required
-- [ ] Verification of new user registration without the required surname
-- [ ] Verification of new user registration without required password
-- [ ] Verification of new user registration with 4 characters in password field
-- [ ] Verification of new user registration with one space in the first name field
-- [ ] Verification of new user registration with one space in surname field
-- [ ] Verification of new user registration with five spaces in the password field
-- [ ] Verification of new user registration with a space in all fields
-- [ ] Verification of new user registration with full details
-- [ ] Verification of new user registration with existing e-mail
-- [ ] Verification of return from user registration to home page
+- [x] 009-TC Validation of registration form
+- [x] 010-TC Verification of new user registration with first name only
+- [x] 011-TC Verification of new user registration with last name only
+- [x] 012-TC Verification of new user registration with password only
+- [x] 013-TC Verification of new user registration without first name required
+- [x] 014-TC Verification of new user registration without last name required
+- [x] 015-TC Verification of new user registration without password required
+- [x] 016-TC Verification of new user registration with 4 characters in password field
+- [x] 017-TC Verification of new user registration with one space in the first name field
+- [x] 018-TC Verification of new user registration with one space in last name field
+- [x] 019-TC Verification of new user registration with five spaces in the password field
+- [x] 020-TC Verification of new user registration with required data
+- [x] 021-TC Verification of new user registration with already registered email
 
 3. Adding an address:
 
