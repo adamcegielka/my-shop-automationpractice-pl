@@ -10,4 +10,4 @@
 | 4   | **Kroki:**               | _1. Iść na stronę http://www.automationpractice.pl <br> 2. Kliknąć przycisk `Sign in` <br> 3. Wpisać poprawny randomowy email <br> 4. Kliknąć przycisk `Create an account`_ |
 | 5   | **Oczekiwany rezultat:** | _Po wykonaniu powyższych kroków pojawia formularz rejestracji nowego użytkownika `YOUR PERSONAL INFORMATION`_ |
 | 6   | **Warunek końcowy:**     | _Poprawny email utworzy nowe konta_   |
-| 8   | **Wykonanie:**           | _Manualne i Automatyczne_                                               |
+| 7   | **Wykonanie:**           | _Manualne i Automatyczne_                                               |
