@@ -14,21 +14,21 @@
 
 2. Formularz rejestracji:
 
-- [ ] Walidacja formularza rejestracji
-- [ ] Weryfikacja rejestracji nowego użytkownika podając tylko imię
-- [ ] Weryfikacja rejestracji nowego użytkownika podając tylko nazwisko
-- [ ] Weryfikacja rejestracji nowego użytkownika podając tylko hasło
-- [ ] Weryfikacja rejestracji nowego użytkownika bez wymaganego imienia
-- [ ] Weryfikacja rejestracji nowego użytkownika bez wymaganego nazwiska
-- [ ] Weryfikacja rejestracji nowego użytkownika bez wymaganego hasła
-- [ ] Weryfikacja rejestracji nowego użytkownika z 4 znakami w polu hasło
-- [ ] Weryfikacja rejestracji nowego użytkownika z jedną spacją w polu imię
-- [ ] Weryfikacja rejestracji nowego użytkownika z jedną spacją w polu nazwisko
-- [ ] Weryfikacja rejestracji nowego użytkownika z pięciokrotną spacją w polu hasło
-- [ ] Weryfikacja rejestracji nowego użytkownika używając spacji we wszystkich polach
-- [ ] Weryfikacja rejestracji nowego użytkownika z pełnymi danymi
-- [ ] Weryfikacja rejestracji nowego użytkownika z istniejącym e-mail
-- [ ] Weryfikacja powrotu z rejestracji użytkownika do strony głównej
+- [x] 009-TC-pl Walidacja formularza rejestracji
+- [x] 010-TC-pl Weryfikacja rejestracji nowego użytkownika podając tylko imię
+- [x] 011-TC-pl Weryfikacja rejestracji nowego użytkownika podając tylko nazwisko
+- [x] 012-TC-pl Weryfikacja rejestracji nowego użytkownika podając tylko hasło
+- [x] 013-TC-pl Weryfikacja rejestracji nowego użytkownika bez wymaganego imienia
+- [x] 014-TC-pl Weryfikacja rejestracji nowego użytkownika bez wymaganego nazwiska
+- [x] 015-TC-pl Weryfikacja rejestracji nowego użytkownika bez wymaganego hasła
+- [x] 016-TC-pl Weryfikacja rejestracji nowego użytkownika z 4 znakami w polu hasło
+- [x] 017-TC-pl Weryfikacja rejestracji nowego użytkownika z jedną spacją w polu imię
+- [x] 018-TC-pl Weryfikacja rejestracji nowego użytkownika z jedną spacją w polu nazwisko
+- [x] 019-TC-pl Weryfikacja rejestracji nowego użytkownika z pięciokrotną spacją w polu hasło
+- [x] 020-TC-pl Weryfikacja rejestracji nowego użytkownika używając spacji we wszystkich polach
+- [x] 021-TC-pl Weryfikacja rejestracji nowego użytkownika z pełnymi danymi
+- [x] 022-TC-pl Weryfikacja rejestracji nowego użytkownika z istniejącym e-mail
+- [x] 023-TC-pl Weryfikacja powrotu z rejestracji użytkownika do strony głównej
 
 3. Dodanie adresu:
 
