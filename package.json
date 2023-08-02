@@ -18,6 +18,8 @@
     "test:firefox:headed": "npx playwright test --headed --project=firefox",
     "test:webkit": "npx playwright test --project=webkit",
     "test:webkit:headed": "npx playwright test --headed --project=cwebkit",
+    "test:tag:failTest": "npx playwright test --grep @failTest",
+    "test:tag:without": "npx playwright test --grep-inver @failTest",
     "report": "npx playwright show-report",
     "prettier": "npx prettier --write .",
     "lint": "eslint . --fix --max-warnings=0"
