@@ -20,18 +20,18 @@
 
 <br>
 
-# :shopping_cart: My Shop - automationpractice.pl
+# :shopping_cart: My Shop project - automationpractice.pl
 
-- The project will be executed until the end of August 2023, the start date of the tests is 26.06.2023.
-- The objective of this project is to create test cases in [TestRail](https://www.testrail.com/), report bugs in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application in order to gain valuable experience.  
+The aim of this project is to create tests in [TestRail](https://www.testrail.com/), report errors in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application. The project aims to gain valuable experience in testing.
 
+## Project scope
 
-## Scope of the test project
-
-- design of test cases in TestRail and creation of a report
-- execution of manual tests on the basis of the test cases 
-- bug reporting in JIRA
-- writing and running automated tests in Paywright
+- Designing test cases in TestRail and creating a report.
+- Execution of manual tests based on the designed test cases.
+- Bug reporting in JIRA.
+- Writing and running automated tests in Playwright.
+- Executing tests in different browsers (chromium, firefox, webkit).
+- Testing of various types including E2E, Functional, Compatibility, Responsiveness, Navigation and Usability.
 
 ## Work environment:
 - Windows 10 Home
@@ -44,7 +44,6 @@
 
 ## Tools used for testing
 
-- [App: My Shop](http://www.automationpractice.pl/)
 - [TestRail](https://www.testrail.com/)
 - [JIRA](https://www.atlassian.com/pl/software/jira/)
 - [VSCode](https://code.visualstudio.com/)
@@ -60,13 +59,6 @@
 - [Stack Overflow](https://stackoverflow.com/)
 - [PicPick](https://picpick.app/)
 
-## Test types made
-- E2E tests
-- Functional tests
-- Compatibility tests
-- Responsiveness tests
-- Navigation and usability tests
-- Error control tests
+## Progress and results of tests
 
-## :construction: Test results
-To be written after the tests have been completed
+The progress of the tests will be updated regularly. Once the tests have been completed, the results will be collated and a summary written up, together with a report of the results obtained.
