@@ -20,7 +20,7 @@
 
 <br>
 
-# :shopping_cart: My Shop project - automationpractice.pl
+# :shopping_cart: My Shop - automationpractice.pl
 
 The aim of this project is to create tests in [TestRail](https://www.testrail.com/), report errors in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application. The project aims to gain valuable experience in testing.
 
@@ -70,4 +70,4 @@ In addition, [tips](https://github.com/adamcegielka/my-shop-automationpractice-p
 
 ## Summary
 
-This My Shop - automationpractice.co.uk project aims to ensure high-quality application testing, gain valuable testing experience and improve the testing process through automation. I will use a variety of tools and technologies to achieve my project goals. Once the testing is complete, I will carefully analyze the results so as not to make the same mistakes of mistakes in the future. Through this work, I can also expand my knowledge of testing and improve my skills. I believe that this project will benefit both me and those starting out in testing.
+This My Shop - automationpractice.pl project aims to ensure high-quality application testing, gain valuable testing experience and improve the testing process through automation. I will use a variety of tools and technologies to achieve my project goals. Once the testing is complete, I will carefully analyze the results so as not to make the same mistakes of mistakes in the future. Through this work, I can also expand my knowledge of testing and improve my skills. I believe that this project will benefit both me and those starting out in testing.
