@@ -36,10 +36,10 @@ The aim of this project is to create tests in [TestRail](https://www.testrail.co
 ## Work environment:
 - Windows 10 Home
 - Browser:
-  - Chromium 115.0.5790.110
-  - Firefox Developer Edition 116.0b8
-  - Opera 101.0.4843.25
-- Playwright 1.36.2
+  - Chrome
+  - Firefox Developer Edition
+  - Opera
+- Playwright
   - Browsers: chromium, firefox, webkit
 
 ## Tools used for testing
@@ -61,4 +61,12 @@ The aim of this project is to create tests in [TestRail](https://www.testrail.co
 
 ## Progress and results of tests
 
-The progress of the tests will be updated regularly. Once the tests have been completed, the results will be collated and a summary written up, together with a report of the results obtained.
+The progress of the tests will be  regularly updated and available [here](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/docs/progress-and-test-results). Once the tests have been completed, the results will be collated and a summary written up, together with a report of the results obtained.
+
+## Documentation
+
+The entire testing process will be documented, from the designed test cases to the test results to the reported bugs and their solutions. This will enable a fuller understanding of the activities carried out and facilitate possible future reference.
+
+## Summary
+
+This My Shop - automationpractice.co.uk project aims to ensure high-quality application testing, gain valuable testing experience and improve the testing process through automation. I will use a variety of tools and technologies to achieve my project goals. Once the testing is complete, I will carefully analyze the results so as not to make the same mistakes of mistakes in the future. Through this work, I can also expand my knowledge of testing and improve my skills. I believe that this project will benefit both me and those starting out in testing.
