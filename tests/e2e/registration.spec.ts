@@ -44,7 +44,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('003-TC verification e-mail address with hyphen at beginning', async ({ page }) => {
+  test('003-TC verification e-mail address with hyphen at beginning @failTest', async ({ page }) => {
     registration = new Registration(page);
     const emailWithDash = registrationData.userEmailWithDash;
     const validationEmailField = 'Invalid email address.';
@@ -55,7 +55,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('004-TC verification e-mail address with underscore at beginning', async ({ page }) => {
+  test('004-TC verification e-mail address with underscore at beginning @failTest', async ({ page }) => {
     registration = new Registration(page);
     const emailWithUnderscore = registrationData.userEmailWithUnderscore;
     const validationEmailField = 'Invalid email address.';
@@ -77,7 +77,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('006-TC verificatione e-mail address with special equation sign', async ({ page }) => {
+  test('006-TC verificatione e-mail address with special equation sign @failTest', async ({ page }) => {
     registration = new Registration(page);
     const emailWitEquation = registrationData.userEmailWithEquationSign;
     const validationEmailField = 'Invalid email address.';
@@ -88,7 +88,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('007-TC verificatione e-mail address with special ampersand sign', async ({ page }) => {
+  test('007-TC verificatione e-mail address with special ampersand sign @failTest', async ({ page }) => {
     registration = new Registration(page);
     const emailWitAmpersand = registrationData.userEmailWithAmpersandSign;
     const validationEmailField = 'Invalid email address.';
