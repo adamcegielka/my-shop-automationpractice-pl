@@ -65,7 +65,8 @@ The progress of the tests will be  regularly updated and available [here](https:
 
 ## Documentation
 
-The entire testing process will be documented, from the designed test cases to the test results to the reported bugs and their solutions. This will enable a fuller understanding of the activities carried out and facilitate possible future reference.
+The entire testing process will be [documented](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/docs/progress-and-test-results), from the designed [test cases](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/test-cases) to the test results to the reported [bugs](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/bugs). This will enable a fuller understanding of the activities carried out and facilitate possible future reference.  
+In addition, [tips](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/tips) will be collected so that they can be used for improvement in future tests. 
 
 ## Summary
 
