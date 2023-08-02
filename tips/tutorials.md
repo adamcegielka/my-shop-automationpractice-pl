@@ -3,6 +3,7 @@
 <br>
 
 ### Playwright:
+- [playwright.dev](https://playwright.dev/docs/intro)
 - [jaktestowac.pl](https://jaktestowac.pl/course/playwright-wprowadzenie/)
 - [playwright.info - Automatyzacja i testy z Playwright](https://playwright.info/)
 - [Playwright - Zwinna Panda](https://www.youtube.com/watch?v=1-u5JWFWPgw&list=PLvFBbkSgL1u7Bco8ewGnWeZpjRH-bHC_7)
