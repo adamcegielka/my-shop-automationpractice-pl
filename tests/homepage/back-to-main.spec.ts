@@ -20,4 +20,12 @@ test.describe('Go back to the main page', () => {
     await page.locator('#header_logo').click();
     await expect(page).toHaveTitle(/My Shop/);
   });
+
+  test('go back to homepage from Cart page', async ({ page }) => {
+    const cartButton = await page.locator('a[title="View my shopping cart"]');
+    await cartButton.click();
+    await expect(page).toHaveTitle(/Order - My Shop/);
+    await page.goBack();
+    await expect(page).toHaveTitle(/My Shop/);
+  });
 });
