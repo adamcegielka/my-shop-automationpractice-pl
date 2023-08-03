@@ -1,3 +1,9 @@
+import * as crypto from 'crypto';
+
+export async function getRandomString() {
+  return crypto.randomBytes(6).toString('hex');
+}
+
 export async function getRandomEmail() {
   const letters = 'abcdefghijklmnopqrstuvwxyz';
   const usernameLength = 8;
