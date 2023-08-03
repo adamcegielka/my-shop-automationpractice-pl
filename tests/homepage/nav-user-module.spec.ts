@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test.describe('Go back to the main page', () => {
+test.describe('Go back to homepage by nav user module', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });
