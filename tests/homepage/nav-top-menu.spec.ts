@@ -57,6 +57,7 @@ test.describe('Go back to homepage by category of top menu', () => {
     await expect(page).toHaveTitle(/Tops - My Shop/);
   });
 
+  // go back to homepage from all of Women category
   const womenCategories = [
     'Tops',
     'T-shirts',
@@ -77,6 +78,7 @@ test.describe('Go back to homepage by category of top menu', () => {
     });
   }
 
+  // go back to homepage from all of Dresses category
   const dressesCategories = [
     'Casual Dresses',
     'Evening Dresses',
