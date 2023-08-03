@@ -57,7 +57,7 @@ test.describe('Go back to homepage by category of top menu', () => {
     await expect(page).toHaveTitle(/Tops - My Shop/);
   });
 
-  const categories = [
+  const womenCategories = [
     'Tops',
     'T-shirts',
     'Blouses',
@@ -67,11 +67,27 @@ test.describe('Go back to homepage by category of top menu', () => {
     'Summer Dresses',
   ];
 
-  for (const category of categories) {
+  for (const category of womenCategories) {
     test(`go back to homepage from ${category} of Women category`, async ({ page }) => {
       const categoryWomen = await page.locator('a[title="Women"]');
       await categoryWomen.hover();
       const chosenCategory = await page.locator(`a[title="${category}"]`).nth(0);
+      await chosenCategory.click();
+      await expect(page).toHaveTitle(`${category} - My Shop`);
+    });
+  }
+
+  const dressesCategories = [
+    'Casual Dresses',
+    'Evening Dresses',
+    'Summer Dresses',
+  ];
+
+  for (const category of dressesCategories) {
+    test(`go back to homepage from ${category} of Dresses category`, async ({ page }) => {
+      const categoryWomen = await page.getByRole('link', { name: 'Dresses', exact: true });
+      await categoryWomen.hover();
+      const chosenCategory = await page.getByRole('link', { name: `${category}` }).nth(0);
       await chosenCategory.click();
       await expect(page).toHaveTitle(`${category} - My Shop`);
     });
