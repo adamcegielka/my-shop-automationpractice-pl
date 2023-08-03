@@ -8,7 +8,7 @@ test.describe('Go back to homepage by top menu', () => {
   test.afterEach(async ({ page }) => {
     await page.locator('a[title="My Shop"]');
     await expect(page).toHaveTitle(/My Shop/);
-  })
+  });
 
   test('go back to homepage from Women page', async ({ page }) => {
     const womenButton = await page.locator('a[title="Women"]');
@@ -36,5 +36,24 @@ test.describe('Go back to homepage by top menu', () => {
     const page2 = await page2Promise;
     await expect(page2).toHaveURL('https://prestashop.com/blog/');
     await page.bringToFront();
+  });
+});
+
+test.describe.only('Go back to homepage by category of top menu', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto('/');
+  });
+
+  test.afterEach(async ({ page }) => {
+    await page.locator('a[title="My Shop"]');
+    await expect(page).toHaveTitle(/My Shop/);
+  });
+
+  test('go back to homepage from Women category', async ({ page }) => {
+    const categoryWomen = await page.locator('a[title="Women"]');
+    await categoryWomen.hover();
+    const chosenCategory = await page.locator('a[title="Tops"]');
+    await chosenCategory.click();
+    await expect(page).toHaveTitle(/Tops - My Shop/);
   });
 });
