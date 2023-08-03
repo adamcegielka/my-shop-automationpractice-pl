@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('asserts homepage', async ({ page }) => {
+test('open the page and asserts homepage', async ({ page }) => {
   await page.goto('/');
 
   await expect(page).toHaveTitle(/My Shop/);
