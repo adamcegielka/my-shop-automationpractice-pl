@@ -21,4 +21,10 @@ test.describe('Go back to homepage by top menu', () => {
     await dressesButton.click();
     await expect(page.locator('#categories_block_left')).toBeVisible();
   });
+
+  test('go back to homepage from T-shirts page', async ({ page }) => {
+    const tShirtsButton = await page.getByRole('link', { name: 'T-shirts' });
+    await tShirtsButton.click();
+    await expect(page.locator('.category-name')).toHaveText('T-shirts');
+  });
 });
