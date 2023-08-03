@@ -10,7 +10,7 @@ const config: PlaywrightTestConfig = {
     retries: 0,
     testDir: 'tests/e2e',
     use: {
-        baseURL: 'http://www.automationpractice.pl'
+        baseURL: 'http://www.automationpractice.pl',
         headless: true,
         viewport: { width: 1280, height: 720 },
         actionTimeout: 15000,
