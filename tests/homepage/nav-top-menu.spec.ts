@@ -27,4 +27,14 @@ test.describe('Go back to homepage by top menu', () => {
     await tShirtsButton.click();
     await expect(page.locator('.category-name')).toHaveText('T-shirts');
   });
+
+  test('go back to homepage from Blog page', async ({ page }) => {
+    const blogButton = await page.getByRole('link', { name: 'Blog' });
+    await blogButton.click();
+
+    const page2Promise = page.waitForEvent('popup');
+    const page2 = await page2Promise;
+    await expect(page2).toHaveURL('https://prestashop.com/blog/');
+    await page.bringToFront();
+  });
 });
