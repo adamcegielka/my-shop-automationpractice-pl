@@ -39,7 +39,7 @@ test.describe('Go back to homepage by top menu', () => {
   });
 });
 
-test.describe.only('Go back to homepage by category of top menu', () => {
+test.describe('Go back to homepage by category of top menu', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });
@@ -49,11 +49,31 @@ test.describe.only('Go back to homepage by category of top menu', () => {
     await expect(page).toHaveTitle(/My Shop/);
   });
 
-  test('go back to homepage from Women category', async ({ page }) => {
+  test('go back to homepage from Top of Women category', async ({ page }) => {
     const categoryWomen = await page.locator('a[title="Women"]');
     await categoryWomen.hover();
     const chosenCategory = await page.locator('a[title="Tops"]');
     await chosenCategory.click();
     await expect(page).toHaveTitle(/Tops - My Shop/);
   });
+
+  const categories = [
+    'Tops',
+    'T-shirts',
+    'Blouses',
+    'Dresses',
+    'Casual Dresses',
+    'Evening Dresses',
+    'Summer Dresses',
+  ];
+
+  for (const category of categories) {
+    test.only(`go back to homepage from ${category} of Women category`, async ({ page }) => {
+      const categoryWomen = await page.locator('a[title="Women"]');
+      await categoryWomen.hover();
+      const chosenCategory = await page.locator(`a[title="${category}"]`).nth(0);
+      await chosenCategory.click();
+      await expect(page).toHaveTitle(`${category} - My Shop`);
+    });
+  }
 });
