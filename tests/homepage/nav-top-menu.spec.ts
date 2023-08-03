@@ -68,7 +68,7 @@ test.describe('Go back to homepage by category of top menu', () => {
   ];
 
   for (const category of categories) {
-    test.only(`go back to homepage from ${category} of Women category`, async ({ page }) => {
+    test(`go back to homepage from ${category} of Women category`, async ({ page }) => {
       const categoryWomen = await page.locator('a[title="Women"]');
       await categoryWomen.hover();
       const chosenCategory = await page.locator(`a[title="${category}"]`).nth(0);
