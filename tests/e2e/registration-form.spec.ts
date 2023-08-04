@@ -1,8 +1,6 @@
 import { expect, test } from '@playwright/test';
 import { Registration } from 'pages/registration.page';
 import { registrationData } from 'test-data/registration.data';
-// import { getRandomName } from '@utils/date-names';
-// import { getRandomSurname } from '@utils/date-names';
 
 test.describe('Testing new user registration form', () => {
   let registration: Registration;
@@ -50,5 +48,13 @@ test.describe('Testing new user registration form', () => {
     await registration.clickOnRegister();
     const twoMessageValidation = registration.alertErrorMessage;
     await expect(twoMessageValidation).toContainText(twoErrorMessage);
+  });
+
+  test ('013-TC verification of new user registration without first name required', async () => {
+    await registration.inputLastName.fill(lastName);
+    await registration.inputPassword.fill(password);
+    await registration.clickOnRegister();
+    const oneMessageValidation = registration.alertErrorMessage;
+    await expect(oneMessageValidation).toContainText(oneErrorMessage);
   });
 });
