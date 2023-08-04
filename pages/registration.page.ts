@@ -1,11 +1,35 @@
-import { Page } from '@playwright/test';
+import { Page, Locator } from '@playwright/test';
 
 export class Registration {
-  constructor(private page: Page) {}
+  readonly page: Page;
+  readonly buttonSignIn: Locator;
+  readonly buttonCreateAccount: Locator;
+  readonly buttonRegister: Locator;
+  readonly validationEmail: Locator;
+  readonly inputEmail: Locator;
+  readonly validationPageAuthentication: Locator;
 
-  bottonSignIn = this.page.locator('.header_user_info');
-  bottonCreateAccount = this.page.locator('#SubmitCreate');
-  validationEmail = this.page.locator('#create_account_error');
-  inputEmail = this.page.locator('#email_create');
-  validationPageAuthentication = this.page.getByRole('heading', { name: 'Your personal information' });
+  constructor(page: Page) {
+    this.page = page;
+    this.buttonSignIn = page.locator('.header_user_info');
+    this.buttonCreateAccount = page.locator('#SubmitCreate');
+    this.buttonRegister = page.locator('#submitAccount');
+    this.validationEmail = page.locator('#create_account_error');
+    this.inputEmail = page.locator('#email_create');
+    this.validationPageAuthentication = page.getByRole('heading', {
+      name: 'Your personal information',
+    });
+  }
+
+  async loadHomePage() {
+    await this.page.goto('http://www.automationpractice.pl');
+  }
+
+  async clickOnSignIn() {
+    await this.buttonSignIn.click();
+  }
+
+  async clickOnCreateAccount() {
+    await this.buttonCreateAccount.click();
+  }
 }
