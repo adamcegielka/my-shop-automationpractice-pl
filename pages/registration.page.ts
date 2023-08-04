@@ -8,6 +8,9 @@ export class Registration {
   readonly validationEmail: Locator;
   readonly inputEmail: Locator;
   readonly validationPageAuthentication: Locator;
+  readonly inputFirstName: Locator;
+  readonly inputLastName: Locator;
+  readonly inputPassword: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -19,6 +22,9 @@ export class Registration {
     this.validationPageAuthentication = page.getByRole('heading', {
       name: 'Your personal information',
     });
+    this.inputFirstName = page.locator('#customer_firstname');
+    this.inputLastName = page.locator('#customer_lastname');
+    this.inputPassword = page.locator('#passwd');
   }
 
   async loadHomePage() {
