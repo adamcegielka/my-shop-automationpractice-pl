@@ -10,14 +10,14 @@ test.describe('Registration: verification email field for account creation', () 
     registration = new Registration(page);
 
     await page.goto('/');
-    await registration.bottonSignIn.click();
+    await registration.buttonSignIn.click();
   });
 
   test('000-TC validation e-mail address input field', async ({ page }) => {
     registration = new Registration(page);
     const validationEmailField = 'Invalid email address.';
 
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -28,7 +28,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWithSpace);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -39,7 +39,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWithDot);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -50,7 +50,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWithDash);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -61,7 +61,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWithUnderscore);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -72,7 +72,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWitApostrof);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -83,7 +83,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWitEquation);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -94,7 +94,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationEmailField = 'Invalid email address.';
 
     await registration.inputEmail.fill(emailWitAmpersand);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const emailFieldValidation = registration.validationEmail;
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
@@ -105,7 +105,7 @@ test.describe('Registration: verification email field for account creation', () 
     const validationAuthentication = 'Your personal information';
 
     await registration.inputEmail.fill(emailRandom);
-    await registration.bottonCreateAccount.click();
+    await registration.buttonCreateAccount.click();
     const pageAuthentication = registration.validationPageAuthentication;
     await expect(pageAuthentication).toContainText(validationAuthentication);
   });
