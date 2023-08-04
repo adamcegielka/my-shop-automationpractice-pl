@@ -72,4 +72,15 @@ test.describe('Testing new user registration form', () => {
     const oneMessageValidation = registration.alertErrorMessage;
     await expect(oneMessageValidation).toContainText(oneErrorMessage);
   });
+
+  test('016-TC verification of new user registration with 4 characters in password field', async () => {
+    const shortPassword = registrationData.userPasswordShort;
+
+    await registration.inputFirstName.fill(firstName);
+    await registration.inputLastName.fill(lastName);
+    await registration.inputPassword.fill(shortPassword);
+    await registration.clickOnRegister();
+    const oneMessageValidation = registration.alertErrorMessage;
+    await expect(oneMessageValidation).toContainText(oneErrorMessage);
+  });
 });
