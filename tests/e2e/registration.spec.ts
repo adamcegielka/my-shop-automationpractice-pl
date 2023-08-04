@@ -13,8 +13,7 @@ test.describe('Registration: verification email field for account creation', () 
     await registration.buttonSignIn.click();
   });
 
-  test('000-TC validation e-mail address input field', async ({ page }) => {
-    registration = new Registration(page);
+  test('000-TC validation e-mail address input field', async () => {
     const validationEmailField = 'Invalid email address.';
 
     await registration.buttonCreateAccount.click();
@@ -22,8 +21,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('001-TC validation e-mail address with specs at beginning', async ({ page }) => {
-    registration = new Registration(page);
+  test('001-TC validation e-mail address with specs at beginning', async () => {
     const emailWithSpace = registrationData.userEmailWithSpace;
     const validationEmailField = 'Invalid email address.';
 
@@ -33,8 +31,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('002-TC verification e-mail address with dot at beginning', async ({ page }) => {
-    registration = new Registration(page);
+  test('002-TC verification e-mail address with dot at beginning', async () => {
     const emailWithDot = registrationData.userEmailWithDot;
     const validationEmailField = 'Invalid email address.';
 
@@ -44,8 +41,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('003-TC verification e-mail address with hyphen at beginning @failTest', async ({ page }) => {
-    registration = new Registration(page);
+  test('003-TC verification e-mail address with hyphen at beginning @failTest', async () => {
     const emailWithDash = registrationData.userEmailWithDash;
     const validationEmailField = 'Invalid email address.';
 
@@ -55,8 +51,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('004-TC verification e-mail address with underscore at beginning @failTest', async ({ page }) => {
-    registration = new Registration(page);
+  test('004-TC verification e-mail address with underscore at beginning @failTest', async () => {
     const emailWithUnderscore = registrationData.userEmailWithUnderscore;
     const validationEmailField = 'Invalid email address.';
 
@@ -66,8 +61,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('005-TC verification e-mail address with special apostrophe sign', async ({ page }) => {
-    registration = new Registration(page);
+  test('005-TC verification e-mail address with special apostrophe sign', async () => {
     const emailWitApostrof = registrationData.userEmailWithApostropheSign;
     const validationEmailField = 'Invalid email address.';
 
@@ -77,8 +71,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('006-TC verificatione e-mail address with special equation sign @failTest', async ({ page }) => {
-    registration = new Registration(page);
+  test('006-TC verificatione e-mail address with special equation sign @failTest', async () => {
     const emailWitEquation = registrationData.userEmailWithEquationSign;
     const validationEmailField = 'Invalid email address.';
 
@@ -88,8 +81,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('007-TC verificatione e-mail address with special ampersand sign @failTest', async ({ page }) => {
-    registration = new Registration(page);
+  test('007-TC verificatione e-mail address with special ampersand sign @failTest', async () => {
     const emailWitAmpersand = registrationData.userEmailWithAmpersandSign;
     const validationEmailField = 'Invalid email address.';
 
@@ -99,8 +91,7 @@ test.describe('Registration: verification email field for account creation', () 
     await expect(emailFieldValidation).toContainText(validationEmailField);
   });
 
-  test('008-TC verificatione correct e-mail address', async ({ page }) => {
-    registration = new Registration(page);
+  test('008-TC verificatione correct e-mail address', async () => {
     const emailRandom = await getRandomEmail();
     const validationAuthentication = 'Your personal information';
 
