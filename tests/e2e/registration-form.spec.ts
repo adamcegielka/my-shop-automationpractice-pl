@@ -6,6 +6,7 @@ import { registrationData } from 'test-data/registration.data';
 
 test.describe.only('Testing new user registration form', () => {
   let registration: Registration;
+  const email = registrationData.userEmailValid;
 
   test.beforeEach(async ({ page }) => {
     registration = new Registration(page);
@@ -13,14 +14,25 @@ test.describe.only('Testing new user registration form', () => {
     await registration.clickOnSignIn();
   });
 
-  test('009-TC validation of registration form', async ({ page }) => {
-    const email = registrationData.userEmailValid;
+  test('009-TC validation of registration form', async () => {
     const errorMessage = registrationData.threeErrorMessage;
 
     await registration.inputEmail.fill(email);
     await registration.clickOnCreateAccount();
-    await registration.clickRegidter();
-    const messageValidation = page.locator('.alert-danger');
-    await expect(messageValidation).toContainText(errorMessage);
+    await registration.clickOnRegister();
+    const threeMessageValidation = registration.alertErrorMessage;
+    await expect(threeMessageValidation).toContainText(errorMessage);
+  });
+
+  test('010-TC verification of new user registration with first name only', async () => {
+    const errorMessage = registrationData.twoErrorMessage;
+    const firstName = registrationData.userFirstNameValid;
+
+    await registration.inputEmail.fill(email);
+    await registration.clickOnCreateAccount();
+    await registration.inputFirstName.fill(firstName);
+    await registration.clickOnRegister();
+    const twoMessageValidation = registration.alertErrorMessage;
+    await expect(twoMessageValidation).toContainText(errorMessage);
   });
 });
