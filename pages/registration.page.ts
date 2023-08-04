@@ -34,7 +34,7 @@ export class Registration {
     await this.buttonCreateAccount.click();
   }
 
-  async clickRegidter() {
+  async clickOnRegister() {
     await this.buttonRegister.click();
   }
 }
