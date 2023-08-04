@@ -6,6 +6,7 @@ export const registrationData = {
   birthDay: '6',
   birthMonth: 'April',
   birthYear: '1996',
+  // registration
   userEmailWithSpace: ' herko.uhlemann@gmx.com',
   userEmailWithDot: '.herko.uhlemann@gmx.com',
   userEmailWithDash: '-herko.uhlemann@gmx.com',
@@ -13,4 +14,13 @@ export const registrationData = {
   userEmailWithApostropheSign: 'herko"uhlemann@gmx.com',
   userEmailWithEquationSign: 'herko=uhlemann@gmx.com',
   userEmailWithAmpersandSign: 'herko&uhlemann@gmx.com',
+  // registration form
+  userFirstNameValid: "Jhon",
+  userLastNameValid: "Smith",
+  userEmailValid: 'validation@gmx.com',
+  userPasswordValid: '1a2b3c',
+  userPasswordShort: '1a2b',
+  userPasswordNumbers: '12345',
+  oneSpace: ' ',
+  fiveSpace: '     ',
 };
