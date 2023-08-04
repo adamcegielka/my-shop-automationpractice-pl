@@ -35,4 +35,16 @@ test.describe.only('Testing new user registration form', () => {
     const twoMessageValidation = registration.alertErrorMessage;
     await expect(twoMessageValidation).toContainText(errorMessage);
   });
+
+  test('011-TC erification of new user registration with last name only', async () => {
+    const errorMessage = registrationData.twoErrorMessage;
+    const lastName = registrationData.userLastNameValid;
+
+    await registration.inputEmail.fill(email);
+    await registration.clickOnCreateAccount();
+    await registration.inputLastName.fill(lastName);
+    await registration.clickOnRegister();
+    const twoMessageValidation = registration.alertErrorMessage;
+    await expect(twoMessageValidation).toContainText(errorMessage);
+  });
 });
