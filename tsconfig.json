@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@utils/*": ["utils/*"]
+        }
+    }
+}
+
+// https://playwright.dev/docs/test-typescript#tsconfigjson
