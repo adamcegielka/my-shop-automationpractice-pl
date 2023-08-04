@@ -1,4 +1,4 @@
-import { Page, Locator } from '@playwright/test';
+import { Page, Locator, expect } from '@playwright/test';
 
 export class Registration {
   readonly page: Page;
@@ -44,5 +44,18 @@ export class Registration {
 
   async clickOnRegister() {
     await this.buttonRegister.click();
+  }
+
+  // Assertions
+  async asserOneErrorMessage() {
+    await expect(this.alertErrorMessage).toContainText('There is 1 error');
+  }
+
+  async asserTwoErrorMessage() {
+    await expect(this.alertErrorMessage).toContainText('There are 2 errors');
+  }
+
+  async asserThreeErrorMessage() {
+    await expect(this.alertErrorMessage).toContainText('There are 3 errors');
   }
 }
