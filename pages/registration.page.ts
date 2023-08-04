@@ -11,6 +11,7 @@ export class Registration {
   readonly inputFirstName: Locator;
   readonly inputLastName: Locator;
   readonly inputPassword: Locator;
+  readonly alertErrorMessage: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -25,6 +26,7 @@ export class Registration {
     this.inputFirstName = page.locator('#customer_firstname');
     this.inputLastName = page.locator('#customer_lastname');
     this.inputPassword = page.locator('#passwd');
+    this.alertErrorMessage = page.locator('.alert-danger');
   }
 
   async loadHomePage() {
