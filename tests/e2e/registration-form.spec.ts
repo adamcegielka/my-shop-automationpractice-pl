@@ -47,4 +47,17 @@ test.describe.only('Testing new user registration form', () => {
     const twoMessageValidation = registration.alertErrorMessage;
     await expect(twoMessageValidation).toContainText(errorMessage);
   });
+
+  test('012-TC verification of new user registration with password only', async ({ page }) => {
+    const errorMessage = registrationData.twoErrorMessage;
+    const password = registrationData.userPasswordValid;
+
+    await registration.inputEmail.fill(email);
+    await registration.clickOnCreateAccount();
+    await page.waitForTimeout(1000);
+    await registration.inputPassword.fill(password);
+    await registration.clickOnRegister();
+    const twoMessageValidation = registration.alertErrorMessage;
+    await expect(twoMessageValidation).toContainText(errorMessage);
+  });
 });
