@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 import { Registration } from '../../pages/registration.page';
 import { registrationData } from '../../test-data/registration.data';
-import { getRandomEmail } from '../../utils/data-helpers';
+import { getRandomEmail } from '@utils/data-helpers';
 
 test.describe('Registration: verification email field for account creation', () => {
   let registration: Registration;
