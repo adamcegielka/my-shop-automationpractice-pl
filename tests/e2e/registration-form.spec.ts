@@ -63,5 +63,13 @@ test.describe('Testing new user registration form', () => {
     await registration.clickOnRegister();
     const oneMessageValidation = registration.alertErrorMessage;
     await expect(oneMessageValidation).toContainText(oneErrorMessage);
-  })
+  });
+
+  test('015-TC verification of new user registration without password required', async () => {
+    await registration.inputFirstName.fill(firstName);
+    await registration.inputLastName.fill(lastName);
+    await registration.clickOnRegister();
+    const oneMessageValidation = registration.alertErrorMessage;
+    await expect(oneMessageValidation).toContainText(oneErrorMessage);
+  });
 });
