@@ -11,7 +11,6 @@ test.describe('Testing new user registration form', () => {
   const twoErrorMessage = registrationData.twoErrorMessage;
   const oneErrorMessage = registrationData.oneErrorMessage;
 
-
   test.beforeEach(async ({ page }) => {
     registration = new Registration(page);
     await page.goto('/');
@@ -50,11 +49,19 @@ test.describe('Testing new user registration form', () => {
     await expect(twoMessageValidation).toContainText(twoErrorMessage);
   });
 
-  test ('013-TC verification of new user registration without first name required', async () => {
+  test('013-TC verification of new user registration without first name required', async () => {
     await registration.inputLastName.fill(lastName);
     await registration.inputPassword.fill(password);
     await registration.clickOnRegister();
     const oneMessageValidation = registration.alertErrorMessage;
     await expect(oneMessageValidation).toContainText(oneErrorMessage);
   });
+
+  test('014-TC verification of new user registration without last name required', async () => {
+    await registration.inputFirstName.fill(firstName);
+    await registration.inputPassword.fill(password);
+    await registration.clickOnRegister();
+    const oneMessageValidation = registration.alertErrorMessage;
+    await expect(oneMessageValidation).toContainText(oneErrorMessage);
+  })
 });
