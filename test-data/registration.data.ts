@@ -23,4 +23,8 @@ export const registrationData = {
   userPasswordNumbers: '12345',
   oneSpace: ' ',
   fiveSpace: '     ',
+  // error message
+  oneErrorMessage: "There is 1 error",
+  twoErrorMessage: "There are 2 errors",
+  threeErrorMessage: "There are 3 errors",
 };
