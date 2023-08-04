@@ -25,11 +25,16 @@ export class Registration {
     await this.page.goto('http://www.automationpractice.pl');
   }
 
+  // Buttons
   async clickOnSignIn() {
     await this.buttonSignIn.click();
   }
 
   async clickOnCreateAccount() {
     await this.buttonCreateAccount.click();
+  }
+
+  async clickRegidter() {
+    await this.buttonRegister.click();
   }
 }
