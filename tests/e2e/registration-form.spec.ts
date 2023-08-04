@@ -7,6 +7,7 @@ import { registrationData } from 'test-data/registration.data';
 test.describe.only('Testing new user registration form', () => {
   let registration: Registration;
   const email = registrationData.userEmailValid;
+  const errorMessage = registrationData.twoErrorMessage;
 
   test.beforeEach(async ({ page }) => {
     registration = new Registration(page);
@@ -25,7 +26,6 @@ test.describe.only('Testing new user registration form', () => {
   });
 
   test('010-TC verification of new user registration with first name only', async () => {
-    const errorMessage = registrationData.twoErrorMessage;
     const firstName = registrationData.userFirstNameValid;
 
     await registration.inputEmail.fill(email);
@@ -37,7 +37,6 @@ test.describe.only('Testing new user registration form', () => {
   });
 
   test('011-TC erification of new user registration with last name only', async () => {
-    const errorMessage = registrationData.twoErrorMessage;
     const lastName = registrationData.userLastNameValid;
 
     await registration.inputEmail.fill(email);
@@ -49,7 +48,6 @@ test.describe.only('Testing new user registration form', () => {
   });
 
   test('012-TC verification of new user registration with password only', async ({ page }) => {
-    const errorMessage = registrationData.twoErrorMessage;
     const password = registrationData.userPasswordValid;
 
     await registration.inputEmail.fill(email);
