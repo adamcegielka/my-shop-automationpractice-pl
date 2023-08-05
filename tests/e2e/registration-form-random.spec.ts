@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
 import { Registration } from 'pages/registration.page';
-import { getRandomEmail } from '@utils/data-helpers';
 import { registrationData } from 'test-data/registration.data';
+import { getRandomEmail } from '@utils/data-email';
 import { getRandomFirstName } from '@utils/date-user';
 import { getRandomLastName } from '@utils/date-user';
 import { getRandomPassword } from '@utils/date-user';
