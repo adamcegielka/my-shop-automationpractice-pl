@@ -1,5 +1,5 @@
 // First name
-export async function getRandomName() {
+export async function getRandomFirstName() {
   const letters = 'abcdefghijklmnopqrstuvwxyz';
   const usernameLength = 6;
 
@@ -14,12 +14,12 @@ export async function getRandomName() {
   const firstName = `${firstLetter}${restOfName}`;
   return firstName;
 }
-// console.log(getRandomName());
+// console.log(getRandomFirstName());
 
 // -------
 
-// Surname
-export async function getRandomSurname() {
+// Last name
+export async function getRandomLastName() {
   const letters = 'abcdefghijklmnopqrstuvwxyz';
   const usernameLength = 8;
 
@@ -34,4 +34,19 @@ export async function getRandomSurname() {
   const surname = `${firstLetter}${restOfSurname}`;
   return surname;
 }
-// console.log(getRandomSurname());
+// console.log(getRandomLastName());
+
+// -------
+
+// Password
+export async function getRandomPassword() {
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let randomString = '';
+  for (let i = 0; i < 6; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    randomString += characters[randomIndex];
+  }
+  return randomString;
+}
+// console.log(getRandomPassword());
+
