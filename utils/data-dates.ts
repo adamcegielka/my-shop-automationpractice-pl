@@ -20,6 +20,7 @@ export async function getNumberDayNext() {
 // Random Day Number
 export async function getRandomDayNumber() {
   const randomDay = Math.floor(Math.random() * 31) + 1;
+
   return randomDay;
 }
 
@@ -29,6 +30,29 @@ export async function getCurrentMonth() {
   const nameMonth = today.toLocaleString('en-US', { month: 'long' });
 
   return nameMonth;
+}
+
+// Random Month
+const months = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
+
+export async function getRandomMonth() {
+  const randomIndex = Math.floor(Math.random() * months.length);
+  const randomMonth = months[randomIndex];
+
+  return randomMonth;
 }
 
 // Current Year
