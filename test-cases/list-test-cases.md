@@ -31,7 +31,8 @@
 - [ ] 023-TC Verification of new user registration with tomorrow's date of birth
 - [ ] 024-TC Verification of new user registration with today's date of birth
 - [ ] 025-TC Verification of new user registration with 1900 birth year
-- [x] 026-TC Verification of new user registration with already registered email
+- [ ] 026-TC Verification of new user registration with date 31.02.2004
+- [x] 027-TC Verification of new user registration with already registered email
 
 3. Adding an address:
 
