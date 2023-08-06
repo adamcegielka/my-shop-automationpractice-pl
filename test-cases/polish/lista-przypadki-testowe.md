@@ -31,7 +31,8 @@
 - [ ] 023-TC-pl Weryfikacja rejestracji nowego użytkownika z jutrzejszą datą urodzenia
 - [ ] 024-TC-pl Weryfikacja rejestracji nowego użytkownika z dzisiejszą datą urodzenia
 - [ ] 025-TC-pl Weryfikacja rejestracji nowego użytkownika z rokiem urodzenia 1900
-- [x] 026-TC-pl Weryfikacja rejestracji nowego użytkownika z zarejestrowanym już email
+- [ ] 026-TC-pl Weryfikacja rejestracji nowego użytkownika z datą 31,02,2004
+- [x] 027-TC-pl Weryfikacja rejestracji nowego użytkownika z zarejestrowanym już email
 
 3. Dodanie adresu:
 
