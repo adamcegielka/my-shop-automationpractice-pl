@@ -17,6 +17,12 @@ export async function getNumberDayNext() {
   return numberDay;
 }
 
+// Random Day Number
+export async function getRandomDayNumber() {
+  const randomDay = Math.floor(Math.random() * 31) + 1;
+  return randomDay;
+}
+
 // Current Month
 export async function getCurrentMonth() {
   const today = new Date();
