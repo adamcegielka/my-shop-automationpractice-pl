@@ -19,7 +19,7 @@ export async function getNumberDayNext() {
 
 // Random Day Number
 export async function getRandomDayNumber() {
-  const randomDay = Math.floor(Math.random() * 31) + 1;
+  const randomDay = Math.floor(Math.random() * 28) + 1;
 
   return randomDay;
 }
