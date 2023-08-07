@@ -1,10 +1,10 @@
-## 026-TC-pl Weryfikacja rejestracji nowego użytkownika z zarejestrowanym już email
+## 027-TC-pl Weryfikacja rejestracji nowego użytkownika z zarejestrowanym już email
 
 <br>
 
 |     | Elementy                 | Opis                                                                     |
 | :-- | :----------------------- | :----------------------------------------------------------------------- |
-| 1   | **ID:**                  | _026-TC-pl_                                                              |
+| 1   | **ID:**                  | _027-TC-pl_                                                              |
 | 2   | **Tytuł:**               | _Weryfikacja rejestracji nowego użytkownika z zarejestrowanym już email_ |
 | 3   | **Warunki wstępne:**     | _- Aplikacja **automationpractice.pl** jest dostępna i działa poprawnie <br> - Strona http://www.automationpractice.pl jest otwarta_ |
 | 4   | **Kroki:**               | _1. Kliknąć przycisk `Sign in` <br> 2. Wpisać wcześniej zarejestrowany email <br> 3. Kliknąć przycisk `Create an account`_ |
