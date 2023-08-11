@@ -28,10 +28,10 @@
 - [x] 020-TC-pl Weryfikacja rejestracji nowego użytkownika z wymaganymi danymi
 - [x] 021-TC-pl Weryfikacja rejestracji nowego użytkownika tylko z danymi nie wymaganymi
 - [x] 022-TC-pl Weryfikacja rejestracji nowego użytkownika z wszystkimi danymi
-- [ ] 023-TC-pl Weryfikacja rejestracji nowego użytkownika z jutrzejszą datą urodzenia
-- [ ] 024-TC-pl Weryfikacja rejestracji nowego użytkownika z dzisiejszą datą urodzenia
-- [ ] 025-TC-pl Weryfikacja rejestracji nowego użytkownika z rokiem urodzenia 1900
-- [ ] 026-TC-pl Weryfikacja rejestracji nowego użytkownika z datą 31,02,2004
+- [x] 023-TC-pl Weryfikacja rejestracji nowego użytkownika z jutrzejszą datą urodzenia
+- [x] 024-TC-pl Weryfikacja rejestracji nowego użytkownika z dzisiejszą datą urodzenia
+- [x] 025-TC-pl Weryfikacja rejestracji nowego użytkownika z rokiem urodzenia 1900
+- [x] 026-TC-pl Weryfikacja rejestracji nowego użytkownika z datą 31,02,2004
 - [x] 027-TC-pl Weryfikacja rejestracji nowego użytkownika z zarejestrowanym już email
 
 3. Dodanie adresu:
