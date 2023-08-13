@@ -26,12 +26,12 @@
 - [x] 018-TC Verification of new user registration with one space in last name field
 - [x] 019-TC Verification of new user registration with five spaces in the password field
 - [x] 020-TC Verification of new user registration with required data
-- [ ] 021-TC Verification of new user registration with only non required data
-- [ ] 022-TC Verification of new user registration with all data
-- [ ] 023-TC Verification of new user registration with tomorrow's date of birth
-- [ ] 024-TC Verification of new user registration with today's date of birth
-- [ ] 025-TC Verification of new user registration with 1900 birth year
-- [ ] 026-TC Verification of new user registration with date 31.02.2004
+- [x] 021-TC Verification of new user registration with only non required data
+- [x] 022-TC Verification of new user registration with all data
+- [x] 023-TC Verification of new user registration with tomorrow's date of birth
+- [x] 024-TC Verification of new user registration with today's date of birth
+- [x] 025-TC Verification of new user registration with 1900 birth year
+- [x] 026-TC Verification of new user registration with date 31.02.2004
 - [x] 027-TC Verification of new user registration with already registered email
 
 3. Adding an address:
