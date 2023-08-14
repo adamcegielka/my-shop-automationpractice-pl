@@ -32,6 +32,13 @@ export async function getCurrentMonth() {
   return nameMonth;
 }
 
+// Random Month Number
+export async function getRandomMonthNumber() {
+  const randomDay = Math.floor(Math.random() * 12) + 1;
+
+  return randomDay;
+}
+
 // Random Month
 const months = [
   'January',
