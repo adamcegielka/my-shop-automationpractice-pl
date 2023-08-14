@@ -32,7 +32,7 @@ test.describe('Testing a new user registration form with random data', () => {
     await registration.inputLastName.fill(randomLastName);
     await registration.inputPassword.fill(randomPassword);
     await registration.clickOnRegister();
-    await registration.asserOneErrorMessage();
+    await registration.assertOneErrorMessage();
   });
 
   test('018-TC verification of new user registration with one space in last name field @failTest', async () => {
@@ -41,7 +41,7 @@ test.describe('Testing a new user registration form with random data', () => {
     await registration.inputLastName.fill(oneSpace);
     await registration.inputPassword.fill(randomPassword);
     await registration.clickOnRegister();
-    await registration.asserOneErrorMessage();
+    await registration.assertOneErrorMessage();
   });
 
   test('019-TC verification of new user registration with five spaces in the password field @failTest', async () => {
@@ -50,6 +50,6 @@ test.describe('Testing a new user registration form with random data', () => {
     await registration.inputLastName.fill(randomLastName);
     await registration.inputPassword.fill(fiveSpace);
     await registration.clickOnRegister();
-    await registration.asserOneErrorMessage();
+    await registration.assertOneErrorMessage();
   });
 });

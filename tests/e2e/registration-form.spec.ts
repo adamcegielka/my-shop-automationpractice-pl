@@ -19,47 +19,47 @@ test.describe('Testing new user registration form', () => {
 
   test('009-TC validation of registration form', async () => {
     await registration.clickOnRegister();
-    await registration.asserThreeErrorMessage();
+    await registration.assertThreeErrorMessage();
   });
 
   test('010-TC verification of new user registration with first name only', async () => {
     await registration.inputFirstName.fill(firstName);
     await registration.clickOnRegister();
-    await registration.asserTwoErrorMessage();
+    await registration.assertTwoErrorMessage();
   });
 
   test('011-TC erification of new user registration with last name only', async () => {
     await registration.inputLastName.fill(lastName);
     await registration.clickOnRegister();
-    await registration.asserTwoErrorMessage();
+    await registration.assertTwoErrorMessage();
   });
 
   test('012-TC verification of new user registration with password only', async ({ page }) => {
     await page.waitForTimeout(1000);
     await registration.inputPassword.fill(password);
     await registration.clickOnRegister();
-    await registration.asserTwoErrorMessage();
+    await registration.assertTwoErrorMessage();
   });
 
   test('013-TC verification of new user registration without first name required', async () => {
     await registration.inputLastName.fill(lastName);
     await registration.inputPassword.fill(password);
     await registration.clickOnRegister();
-    await registration.asserOneErrorMessage();
+    await registration.assertOneErrorMessage();
   });
 
   test('014-TC verification of new user registration without last name required', async () => {
     await registration.inputFirstName.fill(firstName);
     await registration.inputPassword.fill(password);
     await registration.clickOnRegister();
-    await registration.asserOneErrorMessage();
+    await registration.assertOneErrorMessage();
   });
 
   test('015-TC verification of new user registration without password required', async () => {
     await registration.inputFirstName.fill(firstName);
     await registration.inputLastName.fill(lastName);
     await registration.clickOnRegister();
-    await registration.asserOneErrorMessage();
+    await registration.assertOneErrorMessage();
   });
 
   test('016-TC verification of new user registration with 4 characters in password field', async () => {
@@ -69,6 +69,6 @@ test.describe('Testing new user registration form', () => {
     await registration.inputLastName.fill(lastName);
     await registration.inputPassword.fill(shortPassword);
     await registration.clickOnRegister();
-    await registration.asserOneErrorMessage();
+    await registration.assertOneErrorMessage();
   });
 });

@@ -47,15 +47,15 @@ export class Registration {
   }
 
   // Assertions
-  async asserOneErrorMessage() {
+  async assertOneErrorMessage() {
     await expect(this.alertErrorMessage).toContainText('There is 1 error');
   }
 
-  async asserTwoErrorMessage() {
+  async assertTwoErrorMessage() {
     await expect(this.alertErrorMessage).toContainText('There are 2 errors');
   }
 
-  async asserThreeErrorMessage() {
+  async assertThreeErrorMessage() {
     await expect(this.alertErrorMessage).toContainText('There are 3 errors');
   }
 }
