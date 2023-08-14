@@ -84,4 +84,8 @@ export class Registration {
   async assertAccountHasBeenCreated() {
     await expect(this.alertSuccess).toContainText('Your account has been created.');
   }
+
+  async alertCreateAccount() {
+    await expect(this.validationEmail).toContainText('An account using this email address has already been registered. Please enter a valid password or request a new one.')
+  }
 }
