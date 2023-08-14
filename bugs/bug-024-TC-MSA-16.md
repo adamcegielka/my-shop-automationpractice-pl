@@ -1,4 +1,4 @@
-## 024-TC => MSA-16 User can create an account with five spaces in the password field
+## 024-TC => MSA-16 User can create an account with today's date of birth
 
 <br>
 
