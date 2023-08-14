@@ -7,6 +7,9 @@ import { getRandomPassword } from '@utils/date-user';
 import { getRandomDayNumber } from '@utils/data-dates';
 import { getRandomMonthNumber } from '@utils/data-dates';
 import { getYearBirthAdult } from '@utils/data-dates';
+import { getNumberDayNext } from '@utils/data-dates';
+import { getCurrentMonthNumber } from '@utils/data-dates';
+import { getCurrentYear } from '@utils/data-dates';
 
 test.describe('Testing a new user registration form with random data and date of birth', () => {
   let registration: Registration;
@@ -16,6 +19,9 @@ test.describe('Testing a new user registration form with random data and date of
   let randomDay: string;
   let randomMonth: string;
   let yearBirthAdult: string;
+  let dayNext: string;
+  let currentMonth: string;
+  let currentYear: string;
 
   test.beforeEach(async ({ page }) => {
     registration = new Registration(page);
@@ -32,6 +38,9 @@ test.describe('Testing a new user registration form with random data and date of
     randomDay = (await getRandomDayNumber()).toString();
     randomMonth = (await getRandomMonthNumber()).toString();
     yearBirthAdult = (await getYearBirthAdult()).toString();
+    dayNext = (await getNumberDayNext()).toString();
+    currentMonth = (await getCurrentMonthNumber()).toString();
+    currentYear = (await getCurrentYear()).toString();
   });
 
   test('021-TC verification of new user registration with only non required data', async () => {
@@ -56,5 +65,19 @@ test.describe('Testing a new user registration form with random data and date of
     await registration.clickOnRegister();
     await registration.assertMyAccount();
     await registration.assertAccountHasBeenCreated();
+  });
+
+  test.only('023-TC verification of new user registration with tomorrows date of birth', async () => {
+    await registration.titleMr.click()
+    await registration.inputFirstName.fill(randomFirstName);
+    await registration.inputLastName.fill(randomLastName);
+    await registration.inputPassword.fill(randomPassword);
+    await registration.dateOfBirthDays.selectOption(dayNext);
+    await registration.dateOfBirthMonths.selectOption(currentMonth);
+    await registration.dateOfBirthYears.selectOption(currentYear);
+    await registration.checkboxNewsletter.click();
+    await registration.clickOnRegister();
+    await registration.assertOneErrorMessage();
+    await registration.assertInvalidDateOfBirthe();
   });
 });
