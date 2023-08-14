@@ -8,6 +8,7 @@ import { getRandomDayNumber } from '@utils/data-dates';
 import { getRandomMonthNumber } from '@utils/data-dates';
 import { getYearBirthAdult } from '@utils/data-dates';
 import { getNumberDayNext } from '@utils/data-dates';
+import { getCurrentDayNumber } from '@utils/data-dates';
 import { getCurrentMonthNumber } from '@utils/data-dates';
 import { getCurrentYear } from '@utils/data-dates';
 
@@ -20,6 +21,7 @@ test.describe('Testing a new user registration form with random data and date of
   let randomMonth: string;
   let yearBirthAdult: string;
   let dayNext: string;
+  let currentDay: string;
   let currentMonth: string;
   let currentYear: string;
 
@@ -39,6 +41,7 @@ test.describe('Testing a new user registration form with random data and date of
     randomMonth = (await getRandomMonthNumber()).toString();
     yearBirthAdult = (await getYearBirthAdult()).toString();
     dayNext = (await getNumberDayNext()).toString();
+    currentDay = (await getCurrentDayNumber()).toString();
     currentMonth = (await getCurrentMonthNumber()).toString();
     currentYear = (await getCurrentYear()).toString();
   });
@@ -67,12 +70,26 @@ test.describe('Testing a new user registration form with random data and date of
     await registration.assertAccountHasBeenCreated();
   });
 
-  test.only('023-TC verification of new user registration with tomorrows date of birth', async () => {
+  test('023-TC verification of new user registration with tomorrows date of birth', async () => {
     await registration.titleMr.click()
     await registration.inputFirstName.fill(randomFirstName);
     await registration.inputLastName.fill(randomLastName);
     await registration.inputPassword.fill(randomPassword);
     await registration.dateOfBirthDays.selectOption(dayNext);
+    await registration.dateOfBirthMonths.selectOption(currentMonth);
+    await registration.dateOfBirthYears.selectOption(currentYear);
+    await registration.checkboxNewsletter.click();
+    await registration.clickOnRegister();
+    await registration.assertOneErrorMessage();
+    await registration.assertInvalidDateOfBirthe();
+  });
+
+  test('024-TC verification of new user registration with todays date of birth @failTest', async () => {
+    await registration.titleMr.click();
+    await registration.inputFirstName.fill(randomFirstName);
+    await registration.inputLastName.fill(randomLastName);
+    await registration.inputPassword.fill(randomPassword);
+    await registration.dateOfBirthDays.selectOption(currentDay);
     await registration.dateOfBirthMonths.selectOption(currentMonth);
     await registration.dateOfBirthYears.selectOption(currentYear);
     await registration.checkboxNewsletter.click();
