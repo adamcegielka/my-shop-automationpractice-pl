@@ -13,6 +13,12 @@ export class Registration {
   readonly inputPassword: Locator;
   readonly alertErrorMessage: Locator;
   readonly alertSuccess: Locator;
+  readonly titleMr: Locator;
+  readonly titleMrs: Locator;
+  readonly dateOfBirthDays: Locator;
+  readonly dateOfBirthMonths: Locator;
+  readonly dateOfBirthYears: Locator;
+  readonly checkboxNewsletter: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -29,6 +35,12 @@ export class Registration {
     this.inputPassword = page.locator('#passwd');
     this.alertErrorMessage = page.locator('.alert-danger');
     this.alertSuccess = page.locator('#center_column');
+    this.titleMr = page.locator('#uniform-id_gender1');
+    this.titleMrs = page.locator('#uniform-id_gender2');
+    this.dateOfBirthDays = page.locator('#days');
+    this.dateOfBirthMonths = page.locator('#months');
+    this.dateOfBirthYears = page.locator('#years');
+    this.checkboxNewsletter = page.locator('#newsletter');
   }
 
   async loadHomePage() {
@@ -59,6 +71,10 @@ export class Registration {
 
   async assertThreeErrorMessage() {
     await expect(this.alertErrorMessage).toContainText('There are 3 errors');
+  }
+
+  async assertInvalidDateOfBirthe() {
+    await expect(this.alertErrorMessage).toContainText('Invalid date of birth.');
   }
 
   async assertMyAccount() {
