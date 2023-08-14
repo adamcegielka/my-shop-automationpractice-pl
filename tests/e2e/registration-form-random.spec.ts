@@ -52,4 +52,13 @@ test.describe('Testing a new user registration form with random data', () => {
     await registration.clickOnRegister();
     await registration.assertOneErrorMessage();
   });
+
+  test('020-TC verification of new user registration with required data', async () => {
+    await registration.inputFirstName.fill(randomFirstName);
+    await registration.inputLastName.fill(randomLastName);
+    await registration.inputPassword.fill(randomPassword);
+    await registration.clickOnRegister();
+    await registration.assertMyAccount();
+    await registration.assertAccountHasBeenCreated();
+  });
 });
