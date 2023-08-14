@@ -12,6 +12,7 @@ export class Registration {
   readonly inputLastName: Locator;
   readonly inputPassword: Locator;
   readonly alertErrorMessage: Locator;
+  readonly alertSuccess: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -27,6 +28,7 @@ export class Registration {
     this.inputLastName = page.locator('#customer_lastname');
     this.inputPassword = page.locator('#passwd');
     this.alertErrorMessage = page.locator('.alert-danger');
+    this.alertSuccess = page.locator('#center_column');
   }
 
   async loadHomePage() {
@@ -57,5 +59,13 @@ export class Registration {
 
   async assertThreeErrorMessage() {
     await expect(this.alertErrorMessage).toContainText('There are 3 errors');
+  }
+
+  async assertMyAccount() {
+    await expect(this.alertSuccess).toContainText('My account');
+  }
+
+  async assertAccountHasBeenCreated() {
+    await expect(this.alertSuccess).toContainText('Your account has been created.');
   }
 }
