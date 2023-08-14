@@ -72,9 +72,9 @@ export async function getRandomMonth() {
 // Current Year
 export async function getCurrentYear() {
   const today = new Date();
-  const year = today.toLocaleString(undefined, { year: 'numeric' });
-
-  return year;
+  const yearNumber = today.getFullYear();
+  
+  return yearNumber;
 }
 
 // Year Birth Adult
