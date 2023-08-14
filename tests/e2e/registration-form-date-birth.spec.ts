@@ -97,4 +97,18 @@ test.describe('Testing a new user registration form with random data and date of
     await registration.assertOneErrorMessage();
     await registration.assertInvalidDateOfBirthe();
   });
+
+  test('025-TC verification of new user registration with 1900 birth year @failTest', async () => {
+    await registration.titleMr.click();
+    await registration.inputFirstName.fill(randomFirstName);
+    await registration.inputLastName.fill(randomLastName);
+    await registration.inputPassword.fill(randomPassword);
+    await registration.dateOfBirthDays.selectOption(randomDay);
+    await registration.dateOfBirthMonths.selectOption(randomMonth);
+    await registration.dateOfBirthYears.selectOption('1900');
+    await registration.checkboxNewsletter.click();
+    await registration.clickOnRegister();
+    await registration.assertOneErrorMessage();
+    await registration.assertInvalidDateOfBirthe();
+  });
 });
