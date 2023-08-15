@@ -36,32 +36,32 @@
 
 3. Dodanie adresu:
 
-- [ ] Walidacja formularza dodawania adresu
-- [ ] Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Address'
-- [ ] Weryfikacja dodania adresu dodając spację w polu 'Address'
-- [ ] Weryfikacja dodania adresu dodając same cyfry w polu 'Address'
-- [ ] Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'City'
-- [ ] Weryfikacja dodania adresu dodając spację w polu 'City'
-- [ ] Weryfikacja dodania adresu dodając cyfry w polu 'City'
-- [ ] Weryfikacja dodania adresu bez wybierania wymaganej opcji 'State'
-- [ ] Weryfikacja dodania adresu z możliwością wybory w polu 'State'
-- [ ] Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Zip/Postal Code'
-- [ ] Weryfikacja dodania adresu dodając spację w polu 'Zip/Postal Code'
-- [ ] Weryfikacja dodania adresu dodając 5 spacji w polu 'Zip/Postal Code'
-- [ ] Weryfikacja dodania adresu dodając 5 liter 'o' w polu 'Zip/Postal Code'
-- [ ] Weryfikacja dodania adresu z możliwością wybory kraju w polu 'Country'
-- [ ] Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Home phone' lub 'Mobile phone'
-- [ ] Weryfikacja dodania adresu dodając spację w polu 'Home phone' lub 'Mobile phone'
-- [ ] Weryfikacja dodania adresu dodając napis 'phone' w polu 'Home phone' lub 'Mobile phone'
-- [ ] Weryfikacja dodania adresu dodając 2 cyfry w polu 'Home phone' lub 'Mobile phone'
-- [ ] Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Please assign an address title for future reference'
-- [ ] Weryfikacja dodania adresu dodając spację w polu 'Please assign an address title for future reference'
-- [ ] Weryfikacja dodania adresu z poprawnymi danymi tylko w wymaganych polach
-- [ ] Weryfikacja dodania adresu z poprawnymi danymi tylko we wszystkich polach
-- [ ] Weryfikacja aktualizacji dodanego adresu
-- [ ] Weryfikacja usunięcia dodanego adresu
-- [ ] Weryfikacja dodania następnego adresu
-- [ ] Weryfikacja powrotu z 'My addresses' do strony głównej
+- [x] 028-TC-pl Walidacja formularza dodawania adresu
+- [ ] 029-TC-pl Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Address'
+- [ ] 030-TC-pl Weryfikacja dodania adresu dodając spację w polu 'Address'
+- [ ] 031-TC-pl Weryfikacja dodania adresu dodając same cyfry w polu 'Address'
+- [ ] 032-TC-pl Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'City'
+- [ ] 033-TC-pl Weryfikacja dodania adresu dodając spację w polu 'City'
+- [ ] 034-TC-pl Weryfikacja dodania adresu dodając cyfry w polu 'City'
+- [ ] 035-TC-pl Weryfikacja dodania adresu bez wybierania wymaganej opcji 'State'
+- [ ] 036-TC-pl Weryfikacja dodania adresu z możliwością wybory w polu 'State'
+- [ ] 037-TC-pl Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Zip/Postal Code'
+- [ ] 038-TC-pl Weryfikacja dodania adresu dodając spację w polu 'Zip/Postal Code'
+- [ ] 039-TC-pl Weryfikacja dodania adresu dodając 5 spacji w polu 'Zip/Postal Code'
+- [ ] 040-TC-pl Weryfikacja dodania adresu dodając 5 liter 'o' w polu 'Zip/Postal Code'
+- [ ] 041-TC-pl Weryfikacja dodania adresu z możliwością wybory kraju w polu 'Country'
+- [ ] 042-TC-pl Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Home phone' lub 'Mobile phone'
+- [ ] 043-TC-pl Weryfikacja dodania adresu dodając spację w polu 'Home phone' lub 'Mobile phone'
+- [ ] 044-TC-pl Weryfikacja dodania adresu dodając napis 'phone' w polu 'Home phone' lub 'Mobile phone'
+- [ ] 045-TC-pl Weryfikacja dodania adresu dodając 2 cyfry w polu 'Home phone' lub 'Mobile phone'
+- [ ] 046-TC-pl Weryfikacja dodania adresu bez wprowadzania wymaganego pola 'Please assign an address title for future reference'
+- [ ] 047-TC-pl Weryfikacja dodania adresu dodając spację w polu 'Please assign an address title for future reference'
+- [ ] 048-TC-pl Weryfikacja dodania adresu z poprawnymi danymi tylko w wymaganych polach
+- [ ] 049-TC-pl Weryfikacja dodania adresu z poprawnymi danymi tylko we wszystkich polach
+- [ ] 050-TC-pl Weryfikacja aktualizacji dodanego adresu
+- [ ] 051-TC-pl Weryfikacja dodania następnego adresu
+- [ ] 052-TC-pl Weryfikacja usunięcia dodanego adresu
+- [ ] 053-TC-pl Weryfikacja powrotu z 'My addresses' do strony głównej
 
 4. Zmiana hasła:
 
