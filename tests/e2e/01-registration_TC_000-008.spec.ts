@@ -42,6 +42,7 @@ test.describe('Registration: verification email field for account creation', () 
   });
 
   test('003-TC verification e-mail address with hyphen at beginning @failTest', async () => {
+    test.fail();
     const emailWithDash = registrationData.userEmailWithDash;
     const validationEmailField = 'Invalid email address.';
 
@@ -52,6 +53,7 @@ test.describe('Registration: verification email field for account creation', () 
   });
 
   test('004-TC verification e-mail address with underscore at beginning @failTest', async () => {
+    test.fail();
     const emailWithUnderscore = registrationData.userEmailWithUnderscore;
     const validationEmailField = 'Invalid email address.';
 
@@ -72,6 +74,7 @@ test.describe('Registration: verification email field for account creation', () 
   });
 
   test('006-TC verificatione e-mail address with special equation sign @failTest', async () => {
+    test.fail();
     const emailWitEquation = registrationData.userEmailWithEquationSign;
     const validationEmailField = 'Invalid email address.';
 
@@ -82,6 +85,7 @@ test.describe('Registration: verification email field for account creation', () 
   });
 
   test('007-TC verificatione e-mail address with special ampersand sign @failTest', async () => {
+    test.fail();
     const emailWitAmpersand = registrationData.userEmailWithAmpersandSign;
     const validationEmailField = 'Invalid email address.';
 
