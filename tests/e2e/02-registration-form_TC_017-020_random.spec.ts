@@ -6,7 +6,7 @@ import { getRandomFirstName } from '@utils/date-user';
 import { getRandomLastName } from '@utils/date-user';
 import { getRandomPassword } from '@utils/date-user';
 
-test.describe.only('Testing a new user registration form with random data', () => {
+test.describe('Testing a new user registration form with random data', () => {
   let registration: Registration;
   let randomFirstName: string;
   let randomLastName: string;
