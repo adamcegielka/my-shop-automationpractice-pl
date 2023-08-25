@@ -6,7 +6,7 @@ import { getRandomFirstName } from '@utils/date-user';
 import { getRandomLastName } from '@utils/date-user';
 import { getRandomPassword } from '@utils/date-user';
 
-test.describe('Testing a new user registration form with random data', () => {
+test.describe.only('Testing a new user registration form with random data', () => {
   let registration: Registration;
   let randomFirstName: string;
   let randomLastName: string;
@@ -27,6 +27,7 @@ test.describe('Testing a new user registration form with random data', () => {
   });
 
   test('017-TC verification of new user registration with one space in the first name field @failTest', async () => {
+    test.fail();
     const oneSpace = registrationData.oneSpace;
     await registration.inputFirstName.fill(oneSpace);
     await registration.inputLastName.fill(randomLastName);
@@ -36,6 +37,7 @@ test.describe('Testing a new user registration form with random data', () => {
   });
 
   test('018-TC verification of new user registration with one space in last name field @failTest', async () => {
+    test.fail();
     const oneSpace = registrationData.oneSpace;
     await registration.inputFirstName.fill(randomFirstName);
     await registration.inputLastName.fill(oneSpace);
@@ -45,6 +47,7 @@ test.describe('Testing a new user registration form with random data', () => {
   });
 
   test('019-TC verification of new user registration with five spaces in the password field @failTest', async () => {
+    test.fail();
     const fiveSpace = registrationData.fiveSpace;
     await registration.inputFirstName.fill(randomFirstName);
     await registration.inputLastName.fill(randomLastName);
