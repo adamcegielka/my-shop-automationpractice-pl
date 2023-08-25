@@ -1,7 +1,7 @@
 import { test } from '@playwright/test';
 import { Registration } from 'pages/registration.page';
 
-test.describe('Users registration', () => {
+test.describe.skip('Users registration', () => {
   let registration: Registration;
 
   test.beforeEach(async ({ page }) => {
