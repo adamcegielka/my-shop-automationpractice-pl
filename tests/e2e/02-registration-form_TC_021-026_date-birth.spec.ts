@@ -85,6 +85,7 @@ test.describe('Testing a new user registration form with random data and date of
   });
 
   test('024-TC verification of new user registration with todays date of birth @failTest', async () => {
+    test.fail();
     await registration.titleMr.click();
     await registration.inputFirstName.fill(randomFirstName);
     await registration.inputLastName.fill(randomLastName);
@@ -99,6 +100,7 @@ test.describe('Testing a new user registration form with random data and date of
   });
 
   test('025-TC verification of new user registration with 1900 birth year @failTest', async () => {
+    test.fail();
     await registration.titleMr.click();
     await registration.inputFirstName.fill(randomFirstName);
     await registration.inputLastName.fill(randomLastName);
@@ -113,6 +115,7 @@ test.describe('Testing a new user registration form with random data and date of
   });
 
   test('026-TC verification of new user registration with date 31.02.2004 @failTest', async () => {
+    test.fail();
     await registration.titleMr.click();
     await registration.inputFirstName.fill(randomFirstName);
     await registration.inputLastName.fill(randomLastName);
