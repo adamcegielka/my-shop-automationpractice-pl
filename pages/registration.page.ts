@@ -73,6 +73,10 @@ export class Registration {
     await expect(this.alertErrorMessage).toContainText('There are 3 errors');
   }
 
+  async assertFiveErrorMessage() {
+    await expect(this.alertErrorMessage).toContainText('There are 5 errors');
+  }
+
   async assertInvalidDateOfBirthe() {
     await expect(this.alertErrorMessage).toContainText('Invalid date of birth.');
   }
