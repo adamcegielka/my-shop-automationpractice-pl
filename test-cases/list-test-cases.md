@@ -36,7 +36,7 @@
 
 3. Adding an address:
 
-- [ ] Validation of the address addition form
+- [x] Validation of the address addition form
 - [ ] Verification of address addition without entering required 'Address' field
 - [ ] Verification of address addition by adding a space in the 'Address' field
 - [ ] Verification of address addition by adding only digits in the 'Address' field
