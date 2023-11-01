@@ -1,7 +1,8 @@
 import { test } from '@playwright/test';
 import { Registration } from 'pages/registration.page';
+import { registrationData } from 'test-data/registration.data';
 
-test.describe.skip('Users registration', () => {
+test.describe('Users registration', () => {
   let registration: Registration;
 
   test.beforeEach(async ({ page }) => {
@@ -11,17 +12,17 @@ test.describe.skip('Users registration', () => {
     await registration.clickOnSignIn();
   });
 
-  test('user first', async () => {
-    const userFirstEmail = 'user-first@example.com';
-    const firstName = 'User';
-    const lastName = 'First';
-    const password = 'abcdef';
+  test('registration user', async () => {
+    const userEmail = registrationData.userEmail;
+    const firstName = registrationData.firstName;
+    const lastName = registrationData.lastName;
+    const userPassword = registrationData.userPassword;
 
-    await registration.inputEmail.fill(userFirstEmail);
+    await registration.inputEmail.fill(userEmail);
     await registration.clickOnCreateAccount();
     await registration.inputFirstName.fill(firstName);
     await registration.inputLastName.fill(lastName);
-    await registration.inputPassword.fill(password);
+    await registration.inputPassword.fill(userPassword);
     await registration.clickOnRegister();
   });
 });
