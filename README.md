@@ -59,10 +59,6 @@ The aim of this project is to create tests in [TestRail](https://www.testrail.co
 - [Stack Overflow](https://stackoverflow.com/)
 - [PicPick](https://picpick.app/)
 
-## Progress and results of tests
-
-The progress of the tests will be  regularly updated and available [here](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/docs/progress-and-test-results). Once the tests have been completed, the results will be collated and a summary written up, together with a report of the results obtained.
-
 ## Documentation
 
 The entire testing process will be [documented](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/docs/progress-and-test-results), from the designed [test cases](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/test-cases) to the test results to the reported [bugs](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/bugs). This will enable a fuller understanding of the activities carried out and facilitate possible future reference.  
