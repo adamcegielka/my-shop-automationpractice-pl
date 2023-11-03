@@ -3,7 +3,8 @@
         "baseUrl": ".",
         "paths": {
             "@utils/*": ["utils/*"]
-        }
+        },
+        "lib": [ "es2015" ]
     }
 }
 
