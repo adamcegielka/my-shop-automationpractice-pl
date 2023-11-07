@@ -1,19 +1,25 @@
 ---
-name: Tracking issue
+name: Feature Request
 about: Use this template for tracking new features.
 title: "[DATE]: [FEATURE NAME]"
 labels: tracking issue, needs triage
-assignees: 
+assignees:
 ---
 
-Before you open an issue, please check if a similar issue already exists or has been closed before.
+## Before you open an issue, please check if a similar issue already exists or has been closed before.
 
-### When you open an issue for a feature request, please add:
-- [ ] A descriptive title
-...
+### Describe the feature
 
-- [ ] A description of the problem you're trying to solve
-...
+A clear and concise description of what the feature is.
 
-- [ ] If the feature changes current behavior, reasons why your solution is better
-...
+### Is your feature request related to a problem?
+
+A clear and concise description of what the problem is.
+
+### Describe alternatives you've considered
+
+A clear and concise description of any alternative solutions or features you've considered.
+
+### Additional context
+
+Add any other context or screenshots about the feature request here.
