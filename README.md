@@ -1,9 +1,6 @@
 <div style="display: inline_block">
   <p align="center">
     <a href="#">
-      <img align="center" alt="TestRail" height="30" width="30" title="TestRail" src="images/testrail.png">
-    </a>
-    <a href="#">
       <img align="center" alt="JIRA" height="30" width="40" title="JIRA" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg">
     </a>
     <a href="#">
@@ -22,7 +19,7 @@
 
 # :shopping_cart: My Shop - automationpractice.pl
 
-The aim of this project is to create tests in [TestRail](https://www.testrail.com/), report errors in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application. The project aims to gain valuable experience in testing.
+The aim of this project is to create [test cases](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/test-cases), report errors in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application. The project aims to gain valuable experience in testing.
 
 ## Project scope
 
@@ -44,7 +41,6 @@ The aim of this project is to create tests in [TestRail](https://www.testrail.co
 
 ## Tools used for testing
 
-- [TestRail](https://www.testrail.com/)
 - [JIRA](https://www.atlassian.com/pl/software/jira/)
 - [VSCode](https://code.visualstudio.com/)
 - [Playwright](https://playwright.dev/)
