@@ -4,15 +4,15 @@ The aim of this project is to create [test cases](https://github.com/adamcegielk
 
 ## Project scope
 
-- Designing test cases in TestRail and creating a report.
+- Designing test cases in [test cases](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/test-cases) folder.
 - Execution of manual tests based on the designed test cases.
-- Bug reporting in JIRA.
+- Bug reporting in [bug-raports](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/bug-raports).
 - Writing and running automated tests in Playwright.
 - Executing tests in different browsers (chromium, firefox, webkit).
 - Testing of various types including E2E, Functional, Compatibility, Responsiveness, Navigation and Usability.
 
 ## Work environment:
-- Windows 10 Home
+- Windows 11 Home
 - Browser:
   - Chrome
   - Firefox Developer Edition
@@ -28,7 +28,7 @@ The aim of this project is to create [test cases](https://github.com/adamcegielk
     - [TypeScript](https://www.typescriptlang.org/)
     - [ESLint](https://eslint.org/docs/latest/)
     - [Prettier](https://prettier.io/docs/en/index.html)
-- [DevTools]()
+- [DevTools](https://developer.chrome.com/docs/devtools)
 - [BrowserStack](https://www.browserstack.com/)
 - [TEMPMAIL](https://temp-mail.org/pl/)
 - [Random Person Generator](https://devskiller.com/datafairy/#/person)
