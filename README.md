@@ -1,22 +1,3 @@
-<div style="display: inline_block">
-  <p align="center">
-    <a href="#">
-      <img align="center" alt="JIRA" height="30" width="40" title="JIRA" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg">
-    </a>
-    <a href="#">
-      <img align="center" alt="VSCode" height="30" width="40" title="Visual Studio Code" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
-    </a>
-    <a href="#">
-      <img align="center" alt="Playwright" height="30" width="40" title="Playwright" src="images/playwright.png">
-    </a>
-    <a href="#">
-      <img align="center" alt="TypeScript" height="30" width="40" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-    </a>
-  </p>
-</div>
-
-<br>
-
 # :shopping_cart: My Shop - automationpractice.pl
 
 The aim of this project is to create [test cases](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/test-cases), report errors in [JIRA](https://www.atlassian.com/pl/software/jira/) and create automated tests in [Playwright](https://playwright.dev/) for the [automationpractice.pl](http://www.automationpractice.pl/) application. The project aims to gain valuable experience in testing.
