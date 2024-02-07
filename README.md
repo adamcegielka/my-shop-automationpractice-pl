@@ -6,7 +6,7 @@ The aim of this project is to create [test cases](https://github.com/adamcegielk
 
 - Designing test cases in [test cases](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/test-cases) folder.
 - Execution of manual tests based on the designed test cases.
-- Bug reporting in [bug-raports](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/bug-raports) folder.
+- Bug reporting in [bug-reports](https://github.com/adamcegielka/my-shop-automationpractice-pl/tree/main/bug-reports) folder.
 - Writing and running automated tests in Playwright.
 - Executing tests in different browsers (chromium, firefox, webkit).
 - Testing of various types including E2E, Functional, Compatibility, Responsiveness, Navigation and Usability.
