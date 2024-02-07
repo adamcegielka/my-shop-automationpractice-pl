@@ -81,7 +81,7 @@ test.describe('Testing a new user registration form with random data and date of
     await registration.checkboxNewsletter.click();
     await registration.clickOnRegister();
     await registration.assertOneErrorMessage();
-    await registration.assertInvalidDateOfBirthe();
+    await registration.assertInvalidDateOfBirth();
   });
 
   test('024-TC verification of new user registration with todays date of birth @failTest', async () => {
@@ -96,7 +96,7 @@ test.describe('Testing a new user registration form with random data and date of
     await registration.checkboxNewsletter.click();
     await registration.clickOnRegister();
     await registration.assertOneErrorMessage();
-    await registration.assertInvalidDateOfBirthe();
+    await registration.assertInvalidDateOfBirth();
   });
 
   test('025-TC verification of new user registration with 1900 birth year @failTest', async () => {
@@ -111,7 +111,7 @@ test.describe('Testing a new user registration form with random data and date of
     await registration.checkboxNewsletter.click();
     await registration.clickOnRegister();
     await registration.assertOneErrorMessage();
-    await registration.assertInvalidDateOfBirthe();
+    await registration.assertInvalidDateOfBirth();
   });
 
   test('026-TC verification of new user registration with date 31.02.2004 @failTest', async () => {
@@ -126,6 +126,6 @@ test.describe('Testing a new user registration form with random data and date of
     await registration.checkboxNewsletter.click();
     await registration.clickOnRegister();
     await registration.assertOneErrorMessage();
-    await registration.assertInvalidDateOfBirthe();
+    await registration.assertInvalidDateOfBirth();
   });
 });
