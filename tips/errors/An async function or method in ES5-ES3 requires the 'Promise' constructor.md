@@ -4,7 +4,7 @@ add `lib: es2015` to tsconfig.json
 // tsconfig.json
 {
   "compilerOptions": {
-    "lib": [ "es2015" ]
+    "lib": ["es2015"]
   }
 }
 ```

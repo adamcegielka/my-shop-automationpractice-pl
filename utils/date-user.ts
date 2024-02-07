@@ -40,7 +40,8 @@ export async function getRandomLastName() {
 
 // Password
 export async function getRandomPassword() {
-  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const characters =
+    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
   let randomString = '';
   for (let i = 0; i < 6; i++) {
     const randomIndex = Math.floor(Math.random() * characters.length);
@@ -49,4 +50,3 @@ export async function getRandomPassword() {
   return randomString;
 }
 // console.log(getRandomPassword());
-

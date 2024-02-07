@@ -3,7 +3,7 @@ import { LoginUser } from 'pages/login.page';
 import { registrationData } from 'test-data/registration.data';
 import { Registration } from 'pages/registration.page';
 
-test.describe.only('Adding an address', () => {
+test.describe('Adding an address', () => {
   let loginUser: LoginUser;
   let registration: Registration;
 

@@ -34,7 +34,9 @@ test.describe('Testing new user registration form', () => {
     await registration.assertTwoErrorMessage();
   });
 
-  test('012-TC verification of new user registration with password only', async ({ page }) => {
+  test('012-TC verification of new user registration with password only', async ({
+    page,
+  }) => {
     await page.waitForTimeout(1000);
     await registration.inputPassword.fill(password);
     await registration.clickOnRegister();
@@ -64,7 +66,7 @@ test.describe('Testing new user registration form', () => {
 
   test('016-TC verification of new user registration with 4 characters in password field', async () => {
     const shortPassword = registrationData.userPasswordShort;
-    
+
     await registration.inputFirstName.fill(firstName);
     await registration.inputLastName.fill(lastName);
     await registration.inputPassword.fill(shortPassword);

@@ -1,11 +1,11 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "@utils/*": ["utils/*"]
-        },
-        "lib": [ "es2015" ]
-    }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@utils/*": ["utils/*"]
+    },
+    "lib": ["es2015"]
+  }
 }
 
 // https://playwright.dev/docs/test-typescript#tsconfigjson

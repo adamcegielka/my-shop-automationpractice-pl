@@ -1,7 +1,9 @@
 import { test } from '@playwright/test';
 import { Registration } from 'pages/registration.page';
 
-test('027-TC verification of new user registration with already registered email', async ({ page }) => {
+test('027-TC verification of new user registration with already registered email', async ({
+  page,
+}) => {
   const registration = new Registration(page);
   const registeredEmail = 'user-first@example.com';
 

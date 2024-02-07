@@ -73,7 +73,7 @@ export async function getRandomMonth() {
 export async function getCurrentYear() {
   const today = new Date();
   const yearNumber = today.getFullYear();
-  
+
   return yearNumber;
 }
 

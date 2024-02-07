@@ -71,7 +71,7 @@ test.describe('Testing a new user registration form with random data and date of
   });
 
   test('023-TC verification of new user registration with tomorrows date of birth', async () => {
-    await registration.titleMr.click()
+    await registration.titleMr.click();
     await registration.inputFirstName.fill(randomFirstName);
     await registration.inputLastName.fill(randomLastName);
     await registration.inputPassword.fill(randomPassword);

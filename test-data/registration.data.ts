@@ -15,8 +15,8 @@ export const registrationData = {
   userEmailWithEquationSign: 'herko=uhlemann@gmx.com',
   userEmailWithAmpersandSign: 'herko&uhlemann@gmx.com',
   // registration form
-  userFirstNameValid: "Jhon",
-  userLastNameValid: "Smith",
+  userFirstNameValid: 'Jhon',
+  userLastNameValid: 'Smith',
   userEmailValid: 'validation@gmx.com',
   userPasswordValid: '1a2b3c',
   userPasswordShort: '1a2b',
@@ -24,7 +24,7 @@ export const registrationData = {
   oneSpace: ' ',
   fiveSpace: '     ',
   // error message
-  oneErrorMessage: "There is 1 error",
-  twoErrorMessage: "There are 2 errors",
-  threeErrorMessage: "There are 3 errors",
+  oneErrorMessage: 'There is 1 error',
+  twoErrorMessage: 'There are 2 errors',
+  threeErrorMessage: 'There are 3 errors',
 };

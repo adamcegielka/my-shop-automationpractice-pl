@@ -119,7 +119,7 @@
 9. Navigation in the left column:
 
 - [ ] Verification of the left column of 'Tops' products with 'WOMEN'.
-- [ ] 
+- [ ]
 
 10. footer:
 
@@ -160,7 +160,7 @@
 - [ ] Verification of 'Cart' button with products
 - [ ] Verification of enlargement of product image while adding to cart
 - [ ] Verification of change of product image while adding to cart
-- [ ] Verification of adding one product to the cart 
+- [ ] Verification of adding one product to the cart
 - [ ] Verification of adding one product to the cart by increasing the quantity
 - [ ] Verification of one product being added to the basket by checking the subtract product button
 - [ ] Verification of adding one product to the cart by changing the size of the product
@@ -177,13 +177,13 @@
 
 13. Order processing:
 
-- [ ] 
+- [ ]
 
 14. Responsiveness:
 
 - [ ]
 
-<!-- 
+<!--
 http://www.automationpractice.pl/
 https://etsydemo.knowband.com/en/
 -->

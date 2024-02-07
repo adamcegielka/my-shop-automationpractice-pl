@@ -78,7 +78,9 @@ export class Registration {
   }
 
   async assertInvalidDateOfBirth() {
-    await expect(this.alertErrorMessage).toContainText('Invalid date of birth.');
+    await expect(this.alertErrorMessage).toContainText(
+      'Invalid date of birth.'
+    );
   }
 
   async assertMyAccount() {
@@ -86,10 +88,14 @@ export class Registration {
   }
 
   async assertAccountHasBeenCreated() {
-    await expect(this.alertSuccess).toContainText('Your account has been created.');
+    await expect(this.alertSuccess).toContainText(
+      'Your account has been created.'
+    );
   }
 
   async alertCreateAccount() {
-    await expect(this.validationEmail).toContainText('An account using this email address has already been registered. Please enter a valid password or request a new one.')
+    await expect(this.validationEmail).toContainText(
+      'An account using this email address has already been registered. Please enter a valid password or request a new one.'
+    );
   }
 }

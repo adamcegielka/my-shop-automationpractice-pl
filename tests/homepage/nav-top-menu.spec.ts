@@ -17,7 +17,10 @@ test.describe('Go back to homepage by top menu', () => {
   });
 
   test('go back to homepage from Dresses page', async ({ page }) => {
-    const dressesButton = await page.getByRole('link', { name: 'Dresses', exact: true });
+    const dressesButton = await page.getByRole('link', {
+      name: 'Dresses',
+      exact: true,
+    });
     await dressesButton.click();
     await expect(page.locator('#categories_block_left')).toBeVisible();
   });
@@ -69,10 +72,14 @@ test.describe('Go back to homepage by category of top menu', () => {
   ];
 
   for (const category of womenCategories) {
-    test(`go back to homepage from ${category} of Women category`, async ({ page }) => {
+    test(`go back to homepage from ${category} of Women category`, async ({
+      page,
+    }) => {
       const categoryWomen = await page.locator('a[title="Women"]');
       await categoryWomen.hover();
-      const chosenCategory = await page.locator(`a[title="${category}"]`).nth(0);
+      const chosenCategory = await page
+        .locator(`a[title="${category}"]`)
+        .nth(0);
       await chosenCategory.click();
       await expect(page).toHaveTitle(`${category} - My Shop`);
     });
@@ -86,10 +93,17 @@ test.describe('Go back to homepage by category of top menu', () => {
   ];
 
   for (const category of dressesCategories) {
-    test(`go back to homepage from ${category} of Dresses category`, async ({ page }) => {
-      const categoryWomen = await page.getByRole('link', { name: 'Dresses', exact: true });
+    test(`go back to homepage from ${category} of Dresses category`, async ({
+      page,
+    }) => {
+      const categoryWomen = await page.getByRole('link', {
+        name: 'Dresses',
+        exact: true,
+      });
       await categoryWomen.hover();
-      const chosenCategory = await page.getByRole('link', { name: `${category}` }).nth(0);
+      const chosenCategory = await page
+        .getByRole('link', { name: `${category}` })
+        .nth(0);
       await chosenCategory.click();
       await expect(page).toHaveTitle(`${category} - My Shop`);
     });
