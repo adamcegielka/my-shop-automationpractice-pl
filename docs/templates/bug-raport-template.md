@@ -18,12 +18,14 @@
 <br>
 
 ### Severity:
+
 - Critical
 - High
 - Medium
 - Low
 
 ### Priority:
+
 - High
 - Medium
 - Low
