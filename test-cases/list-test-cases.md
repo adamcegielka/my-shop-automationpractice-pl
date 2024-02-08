@@ -36,10 +36,10 @@
 
 3. Adding an address:
 
-- [x] Validation of the address addition form
-- [ ] Verification of address addition without entering required 'Address' field
-- [ ] Verification of address addition by adding a space in the 'Address' field
-- [ ] Verification of address addition by adding only digits in the 'Address' field
+- [x] 028-TC Validation the user address addition form
+- [x] 029-TC Validation the required `Address` field in user address form
+- [x] 030-TC Verify the user address form by entering one space in the required `Address` field
+- [x] 031-TC Verify the user address form by entering five numbers in the required `Address` field
 - [ ] Address addition verification without entering required 'City' field
 - [ ] Address addition verification by adding a space in the 'City' field
 - [ ] Address addition verification by adding digits in the 'City' field
