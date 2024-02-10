@@ -43,8 +43,7 @@
 - [x] 032-TC Validation the required `City` field in user address form
 - [x] 033-TC Verify the user address form by entering one space in the required `City` field
 - [x] 034-TC Verify the user address form by entering two numbers in the required `City` field
-- [ ] Address addition verification without selecting required 'State' field
-- [ ] Verification of address addition with choice in 'State' field
+- [ ] 035-TC Validation the required `State` field in user address form
 - [ ] Verification of address addition without entering required 'Zip/Postal Code' field
 - [ ] Verification of address addition by adding a space in the 'Zip/Postal Code' field
 - [ ] Address addition verification by adding 5 spaces in 'Zip/Postal Code' field
