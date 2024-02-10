@@ -40,9 +40,9 @@
 - [x] 029-TC Validation the required `Address` field in user address form
 - [x] 030-TC Verify the user address form by entering one space in the required `Address` field
 - [x] 031-TC Verify the user address form by entering five numbers in the required `Address` field
-- [ ] Address addition verification without entering required 'City' field
-- [ ] Address addition verification by adding a space in the 'City' field
-- [ ] Address addition verification by adding digits in the 'City' field
+- [ ] 032-TC Validation the required `City` field in user address form
+- [ ] 033-TC Verify the user address form by entering one space in the required `City` field
+- [ ] 034-TC Verify the user address form by entering two numbers in the required `City` field
 - [ ] Address addition verification without selecting required 'State' field
 - [ ] Verification of address addition with choice in 'State' field
 - [ ] Verification of address addition without entering required 'Zip/Postal Code' field
