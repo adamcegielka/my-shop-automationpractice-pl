@@ -29,7 +29,7 @@
   "author": "Adam Cegielka",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.41.1",
+    "@playwright/test": "^1.42.1",
     "@types/node": "^20.11.16",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
