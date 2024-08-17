@@ -28,6 +28,7 @@ The aim of this project is to create [test cases](https://github.com/adamcegielk
     - [TypeScript](https://www.typescriptlang.org/)
     - [ESLint](https://eslint.org/docs/latest/)
     - [Prettier](https://prettier.io/docs/en/index.html)
+- [Jenkins](https://www.jenkins.io/doc/book/)
 - [DevTools](https://developer.chrome.com/docs/devtools)
 - [BrowserStack](https://www.browserstack.com/)
 - [TEMPMAIL](https://temp-mail.org/pl/)
